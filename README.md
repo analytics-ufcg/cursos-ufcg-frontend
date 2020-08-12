@@ -1,3 +1,6 @@
+# Repositório do front-end do projeto Cursos UFCG 
+* http://analytics.ufcg.edu.br/cursosufcg
+
 # Estrutura de Pastas
 
 A estrutura de pastas foi baseada nas seguintes sugestões:
