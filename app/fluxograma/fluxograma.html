@@ -1,8 +1,0 @@
-<link rel='stylesheet' type='text/css' ng-href='{{mods.current.css}}'>
-
-<span class='table'><div class='column' ng-repeat='row in table track by $index'>
-  <span class='column-title' multi-click='column($index, $alt)' unselectable> {{$index + 1}}º Período </span>
-  <cell data='data' shared='shared' ng-repeat='data in row' unselectable></cell>
-</div></span>
-
-<span class='overlay' ng-include='mods.current.overlay'></span>
