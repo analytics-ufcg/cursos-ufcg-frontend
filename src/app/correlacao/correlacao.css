@@ -1,0 +1,142 @@
+
+correlacao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+correlacao svg {
+  margin: auto;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
+correlacao .tooltip {
+  font-size: 1em;
+  font-weight: bold;
+
+  fill: #797777;
+  stroke: #797878;
+  stroke-width: 0.25px;
+}
+
+correlacao .disciplina {
+  stroke: #ffffff;
+  stroke-weight: 1px;
+}
+
+correlacao .arco {
+  fill: none;
+  stroke: #888888;
+  stroke-weight: 1px;
+  stroke-opacity: 0.5;
+}
+
+
+/* TEMPORARY */
+
+#content-wrapper > div {
+  position: relative;
+  display: block;
+}
+
+#content-wrapper ng-include {
+  padding: 0;
+}
+
+#manual-wrapper {
+  position: absolute;
+  margin-top: 120px;
+
+  width: 0;
+  right: 20px;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+#manual {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+
+  width: 340px;
+  clip: rect(-20px, 20px, 320px, 0px);
+  -webkit-transition: clip 1s;
+  transition: clip 1s;
+}
+
+#manual-wrapper:hover {
+  width: 320px;
+}
+
+#manual:hover {
+  clip: rect(-20px, 340px, 320px, 0px);
+}
+
+#manual-puller {
+  width: 20px;
+}
+
+#manual-puller1 {
+  border-top: 20px solid transparent;
+  border-bottom: 0px solid transparent;
+}
+
+#manual-puller2 {
+  width: 100%;
+  height: 80px;
+}
+
+#manual-puller3 {
+  border-top: 0px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+#manual-content {
+  width: 280px;
+  padding: 20px;
+
+  -webkit-transition: box-shadow 0.5s 0.5s;
+
+  transition: box-shadow 0.5s 0.5s;
+  box-shadow: 0px 0px 20px
+    rgba(0, 0, 0, 0);
+}
+
+#manual:hover #manual-content {
+  -webkit-transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  box-shadow: 0px 0px 20px
+    rgba(0, 0, 0, 0.4);
+}
+
+#manual-icon {
+  display: block;
+  padding-top: 24px;
+
+  font-size: 28px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#manual .title {
+  display: block;
+  margin-bottom: 20px;
+
+  font-size: 16px;
+  text-align: center;
+}
+
+#manual p {
+  font-size: 14px;
+  vertical-align: top;
+}
+
+#manual img {
+  float: left;
+  margin-right: 15px;
+}

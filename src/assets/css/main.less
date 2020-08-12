@@ -1,0 +1,52 @@
+
+body {
+  font-family: 'Century Gothic', sans-serif;
+  overflow: hidden;
+  font-size: 12px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.invisible, [invisible] {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.unselectable, [unselectable] {
+  user-select: none;
+  cursor: default;
+}
+
+.clickable, [clickable] {
+  user-select: none;
+  cursor: pointer;
+}
+
+@font-face{
+  font-family: 'Century Gothic';
+  src: url('../../assets/fonts/gothic.ttf');
+}
+
+@font-face{
+  font-family: 'Gotham Bold';
+  src: url('../../assets/fonts/gothambold.ttf');
+}
+
+@keyframes fade-in {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes fade-out {
+  from {opacity: 1}
+  to {opacity: 0}
+}
+
+@keyframes circle-in {
+  from { clip-path: circle(0% at 50% 50%) }
+  to { clip-path: circle(75% at 50% 50%) }
+}

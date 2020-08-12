@@ -1,0 +1,198 @@
+date: 2016-07-25
+author: 'Arthur Costa, Marcos Nascimento, Wesley Santos'
+title: O uso do Cursos UFCG
+
+tags:
+  Tema: ['Cursos UFCG']
+  Data: ['Julho 2016']
+  Autor: ['Arthur Costa',  'Marcos Nascimento', 'Wesley Santos']
+
+abstract: >
+  <p>
+    Hoje vamos contar um pouco da nossa história e discorrer sobre alguns fatos curiosos a respeito do uso do Cursos UFCG.
+    Para tanto, nosso foco vai ser nos acessos do nosso site num período de tempo que engloba a última matrícula.
+  </p>
+  <p>
+    No intuito de percebermos o impacto da funcionalidade Minha Grade juntamente com a disponibilização do risco de reprovação de uma matrícula,
+    utilizamos a ferramenta Google Analytics que oferece dados de acesso ao site (como links mais acessados e número de sessões,
+    que é caracterizada pelo período de tempo em que um utilizador se mantém interagindo ativamente com o site) referentes ao período de 08 a 20 de junho,
+    o qual abrange matrícula e lançamento do novo serviço.
+  </p>
+
+  <img src='blog/img/bebe-cursos.png'>
+
+article: >
+  <h2>Análise das visualizações do Cursos</h2>
+
+  <p>
+    Uma dúvida constante dos alunos ao longo da graduação acontece no momento de escolha de disciplinas para a matrícula.
+    Esta dúvida está intrinsecamente ligada ao risco de reprovação de cursar as disciplinas eleitas para o semestre que se inicia.
+    Neste sentido, o cursos UFCG dá uma mãozinha na hora de eleger as cadeiras do próximo semestre.
+    Para um conjunto de disciplinas selecionado pelo aluno simulando sua matrícula, mostra-se o risco de reprovação,
+    quantas pessoas já colocaram essas mesmas disciplinas e ainda a porcentagem de disciplinas obrigatórias
+    que já foram cursadas por esse aluno (baseado nas disciplinas marcadas na simulação de matrícula e seus pré-requisitos).
+  </p>
+
+  <p>
+    No dia 12 de junho, um dia antes da matrícula dos calouros, houve 331 sessões no Cursos UFCG.
+    Esse número continuou a crescer durante o período de matrícula, que ocorreu de 13 a 17 de junho.
+    No primeiro dia, o número de sessões já era de 2.468, vindo a atingir o pico na terça-feira 14 de junho, com 2.908 sessões.
+    Veja figura abaixo com a distribuição de sessões no tempo.
+
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' style='width: 982px; height: 651px;'>
+      <noscript>
+        <a href='#'>
+          <img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;nu&#47;numeroSessoesCursos&#47;Sheet1&#47;1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' width='680' height='651' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='site_root' value='' /><param name='name' value='numeroSessoesCursos&#47;Sheet1' />
+        <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;nu&#47;numeroSessoesCursos&#47;Sheet1&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='showTabs' value='y' />
+      </object>
+    </div>
+  </p>
+
+  <p>
+    Ainda sobre a janela de tempo próxima ao período de matrícula, 12 a 18 de junho, se observou um número de 8.082 sessões.
+    Isto equivale a um aumento de 75% do número de sessões observadas de 6 a 20 de junho, ou seja, uma semana antes do lançamento da funcionalidade.
+  </p>
+
+  <p>
+    Além disso, o seguinte gráfico ilustra a quantidade de usuários que acessaram nosso site num período de 7 dias, pelo menos uma vez.
+
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' style='width: 982px; height: 651px;'>
+      <noscript>
+        <a href='#'>
+          <img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Us&#47;UsuariosAtivosCursos&#47;Sheet1&#47;1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' width='680' height='651' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='site_root' value='' />
+        <param name='name' value='UsuariosAtivosCursos&#47;Sheet1' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Us&#47;UsuariosAtivosCursos&#47;Sheet1&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' /><param name='showTabs' value='y' />
+      </object>
+    </div>
+  </p>
+
+  <h2>Quem mais utilizou a funcionalidade do “bebê”?</h2>
+
+  <p>
+    Analisamos a quantidade de visualizações da funcionalidade “Minha Grade” para cada curso.
+    No gráfico abaixo, é possível observar os 10 cursos que mais foram acessados e a sua proporção com relação ao total de visualizações.
+
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' style='width: 982px; height: 651px;'>
+      <noscript>
+        <a href='#'>
+          <img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TopCursosVisualizacoes&#47;Sheet1&#47;1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' width='680' height='651' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='site_root' value='' />
+        <param name='name' value='TopCursosVisualizacoes&#47;Sheet1' />
+        <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TopCursosVisualizacoes&#47;Sheet1&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='showTabs' value='y' />
+      </object>
+    </div>
+  </p>
+
+  <h2>Qual foi a repercussão do cursos UFCG no facebook?</h2>
+
+  <p>
+    Sempre que alguma nova funcionalidade é adicionada, ou que há uma nova postagem no nosso Blog,
+    fazemos questão de compartilhá-la com vocês no Facebook através da página do Analytics
+    (<a href='https://www.facebook.com/analytics.ufcg/?fref=ts'>página do Analytics</a>).
+    Isso é interessante não apenas porque nos permite divulgar as atualizações de forma abrangente,
+    mas também porque nos dá a oportunidade de saber qual a reação de vocês a cada postagem nossa.
+  </p>
+
+  <p>
+    As repercussões no Facebook são bastante positivas.
+    Para ilustrar, podemos destacar alguns comentários feitos em posts compartilhados pela página do Analytics que dizem respeito ao Cursos UFCG:
+  </p>
+
+  <p>
+    “MELHOR COISA QUE JÁ INVENTARAM NO MUNDO! Pena que só agora, quando tô praticamente terminando.”
+    - Sobre a funcionalidade de marcar as disciplinas já cursadas pelo aluno e as que o aluno pretende cursar levando em conta os pré-requisitos.
+  </p>
+
+  <p>
+    “Poxa só UFCG?? Espero que no futuro englobe outras instituições. Parabéns pela criação da ferramenta.”
+    - Sobre a funcionalidade que informa o risco de reprovação para um conjunto de disciplinas escolhido.
+  </p>
+
+  <p>
+    Mas nem tudo são flores:
+  </p>
+
+  <p>
+    “então eu marco, mas quando saio não fica, então para q serve?”
+    - Sobre a funcionalidade de marcar um conjunto de disciplinas escolhido quando ainda não era possível salvá-lo.
+  </p>
+
+  <p>
+    Desse modo, vemos o quão importantes são as discussões propostas no Facebook.
+    Visto que, como no comentário acima, podemos receber o feedback necessário para a constante evolução do Cursos UFCG.
+    Então vocês são sempre bem vindos para nos contactar sempre que quiserem com críticas e sugestões.
+  </p>
+
+  <p>
+    Na intenção de tornar nossa análise da repercussão do Cursos UFCG mais intuitiva,
+    temos o seguinte gráfico com o top 5 dos posts da página do Analytics que mais repercutiram no Facebook.
+
+     <script type='text/javascript'>
+       var divElement = document.getElementById('viz1470756691554');
+       var vizElement = divElement.getElementsByTagName('object')[0];
+       vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+       var scriptElement = document.createElement('script');
+       scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+    <div class='tableauPlaceholder' id='viz1470756691554' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Top 5 - Posts mais Populares ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bl&#47;Blog_2&#47;posts&#47;1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz'  style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'/>
+        <param name='site_root' value=''/>
+        <param name='name' value='Blog_2&#47;posts'/>
+        <param name='tabs' value='no'/>
+        <param name='toolbar' value='yes'/>
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bl&#47;Blog_2&#47;posts&#47;1.png' />
+        <param name='animate_transition' value='yes'/>
+        <param name='display_static_image' value='yes'/>
+        <param name='display_spinner' value='yes'/>
+        <param name='display_overlay' value='yes'/>
+  <param name='display_count' value='yes'/>
+      </object>
+    </div>
+  </p>
+
+  <p>
+    O que mostra que o cursos UFCG e, em especial o Minha Grade, tem causado uma repercussão boa e positiva em nossa comunidade de usuários e interessados.
+  </p>

@@ -1,0 +1,21 @@
+
+<div id="topdisc">
+  <div class="light02">
+    <div>
+      <div class="top"><div>TOP 10 </div><br>DAS DISCIPLINAS QUE MAIS REPROVAM</div>
+      <div ng-repeat="disc in reprovacoes | orderBy: '-taxa' | limitTo: 10" class="disc">
+        <div class="index">{{$index+1}}</div>
+        <div class="name">{{disc.nome}}</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="dashboard">
+  <div id="reporter">
+    <div><div class="dark02"><formandos color="color"></formandos></div></div>
+    <!--div id="statistics">reporter</div-->
+  </div>
+  <!--div id="futuro">
+    futuro
+  </div-->
+</div>

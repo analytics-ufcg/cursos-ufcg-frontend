@@ -1,0 +1,138 @@
+date: 2016-06-27
+author: 'Arthur Costa, Clara Dantas, João Brunet, Marcos Nascimento, Wesley Santos'
+title: Participação das mulheres no curso de Ciência da Computação da UFCG
+
+tags:
+  Tema: ['Gênero', 'Mulheres']
+  Data: ['Junho 2016']
+  Autor: ['Arthur Costa', 'Clara Moraes', 'Wesley Santos', 'Marcos Nascimento', 'João Brunet']
+
+abstract: >
+  <p>
+    Neste post os alunos Arthur Emanuel Costa, Marcos Nascimento, Maria Clara Dantas, Wesley Santos e o professor João Arthur Brunet do curso de Ciência
+    da Computação da UFCG vão contar a história da participação das mulheres no curso de Ciência da Computação desde 1979 até 2015.
+    Para isso, foram analisados os dados oficiais gentilmente cedidos pela Pró-reitoria de Graduação da UFCG. Ao todo, foram analisadas
+    2086 matrículas realizadas nesses 36 anos, sendo 339 (16%) matrículas de mulheres.
+  </p>
+
+  <p>
+    Nesse primeiro momento, se objetiva apenas fornecer números que nos permitam visualizar o panorama geral da participação
+    das mulheres no nosso curso para fomentar a discussão a respeito do tema. Por isso, as análises foram
+    bem simples e descritivas. Contudo, a ideia é publicar diversos posts com esse tema e expandir, não somente o teor das análises, como
+    também o seu domínio (outros cursos, outras áreas, outras perguntas etc).
+  </p>
+
+  <img src='blog/img/tech-mulheres.jpg'>
+
+article: >
+  <h2>Como tudo começou?</h2>
+  <p>
+    Nos dados analisados, a matrícula pioneira de uma mulher no curso de Ciência da Computação foi em 1979.2. Como os dados datam
+    desse mesmo ano, é possível afirmar que desde o início do curso há presença de mulheres na nossa graduação. Apesar disso, entre
+    os anos 1979 e 2002 houve pouca representação do sexo feminino no corpo discente. 
+  </p>
+
+  <h2>Como a participação evoluiu ao longo do tempo?</h2>
+  <p>
+    Na última década, o panorama começou a mudar. No gráfico abaixo, podemos ver um aumento (em valores absolutos) no ingresso de
+    mulheres no curso a partir de 2003.1, tendo seu ápice no período de 2012.2 (27 matrículas ou 23%).
+
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' style='width: 982px; height: 742px;'>
+      <noscript>
+        <a href='#'>
+          <img alt='Sheet 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ba&#47;barNMulheresPeriodo&#47;Sheet2&#47;1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' width='680' height='742' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+        <param name='site_root' value='' />
+        <param name='name' value='barNMulheresPeriodo&#47;Sheet2' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ba&#47;barNMulheresPeriodo&#47;Sheet2&#47;1.png' /> 
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='showTabs' value='y' />
+      </object>
+    </div>
+  </p>
+
+  <p>
+    Em valores percentuais, observa-se que a partir de 2004.1 houve um aumento do ingresso de mulheres e essa proporção se manteve
+    ao longo dos anos. Além disso, no período de 2007.1, verifica-se a maior porcentagem de mulheres (37%) no intervalo de tempo de
+    2002.1 até 2015.2.
+
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' style='width: 982px; height: 742px;'>
+      <noscript>
+        <a href='#'>
+          <img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;li&#47;linePMulheresPeriodo&#47;Sheet1&#47;1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' width='680' height='742' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+        <param name='site_root' value='' />
+        <param name='name' value='linePMulheresPeriodo&#47;Sheet1' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;li&#47;linePMulheresPeriodo&#47;Sheet1&#47;1.png' /> 
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='showTabs' value='y' />
+      </object>
+    </div>
+  </p>
+
+  <p>
+    No total, 339 mulheres ingressaram na nossa graduação. Atualmente, há 94 mulheres cursando Ciência da Computação na UFCG.
+  </p>
+
+  <p>
+    Já se formaram 75 (44%) mulheres no nosso curso. Uma observação importante é que, embora esse número seja pouco animador,
+    ele é muito semelhante ao percentual de homens que se formaram ao longo do tempo (45%). Além disso, o desempenho dos formandos
+    também é muito semelhante: o coeficiente acadêmico médio das mulheres é 6,35, enquanto que o dos homens é 6,30.
+  </p>
+
+  <h2>De onde são as mulheres do curso?</h2>
+  <p>
+    O gráfico abaixo fornece uma visão geral das cidades natais das mulheres que já participaram ou participam do nosso curso. 
+
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' style='width: 982px; height: 742px;'>
+      <noscript>
+        <a href='#'><img alt='Sheet 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;KH&#47;KHDH5JX2R&#47;1_rss.png' style='border: none' /></a>
+      </noscript>
+      <object class='tableauViz' width='680' height='742' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+        <param name='path' value='shared&#47;KHDH5JX2R' /> 
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;KH&#47;KHDH5JX2R&#47;1.png' /> 
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='showTabs' value='y' />
+      </object>
+    </div>
+  </p>
+  
+  <p>
+    A maioria das mulheres do curso são do estado da Paraíba (78%). Dentre estas, 54% são naturais de Campina Grande e em seguida temos 6%
+    naturais de João Pessoa. É importante destacar que 91% das matrículas da Paraíba são provenientes do interior, totalizando 229 mulheres.
+  </p>
+
+  <p>
+    Com relação a participação dos outros estados, Pernambuco (34%), São Paulo (15%) e Ceará (14%) são os que possuem mais representates femininas. 
+    O seguinte gráfico ilustra a distribuição de matrículas que não são naturais da Paraíba.
+
+    <img src='blog/img/distribuicao-estados.png'>
+  </p>
+  
