@@ -1,0 +1,261 @@
+date: 2016-08-23
+author: 'Clara Moraes Dantas, Wesley Santos'
+title: 'Análise da Participação das Mulheres por Centro da UFCG'
+
+tags:
+  Tema: ['Gênero', 'Mulheres']
+  Data: ['Agosto 2016']
+  Autor: ['Clara Moraes', 'Wesley Santos']
+
+abstract: >
+  <p>
+    Com o intuito de dar continuidade à nossa história sobre mulheres na UFCG, ampliamos o escopo de nossas observações para os cinco centros do campus de Campina Grande. Sendo estes: Centro de Ciências
+    Biológicas e da Saúde (CCBS), Centro de Engenharia Elétrica e Informática (CEEI), Centro de Ciências e Tecnologia (CCT), Centro de Humanidades (CH) e Centro de Tecnologia e Recursos Naturais (CTRN).
+    A análise foi feita a partir dos dados oficiais cedidos pela Pró-reitoria de Graduação da UFCG, no intervalo entre os anos de 2002 à 2016.
+  </p>
+
+  <a target='_blank' href='https://pt.wikipedia.org/wiki/Sophie_Germain'><img src='blog/img/SophieGermain.jpg'></a>
+
+
+article: >
+  <p>
+    Com o intuito de dar continuidade à nossa história sobre mulheres na UFCG, ampliamos o escopo de nossas observações para os cinco centros do campus de Campina Grande. Sendo estes: Centro de Ciências
+    Biológicas e da Saúde (CCBS), Centro de Engenharia Elétrica e Informática (CEEI), Centro de Ciências e Tecnologia (CCT), Centro de Humanidades (CH) e Centro de Tecnologia e Recursos Naturais (CTRN).
+    A análise foi feita a partir dos dados oficiais cedidos pela Pró-reitoria de Graduação da UFCG, no intervalo entre os anos de 2002 à 2016.
+  </p>
+
+  <br>
+  
+  <h2>Proporcionalmente, o ingresso de mulheres na UFCG vem aumentando?</h2>
+  <p>
+    Sim! De 2004.2 à 2007.1, houve um crescimento considerável (40.86%) na participação de mulheres em cursos da UFCG. No período de 2007.1, pela primeira vez, o número de mulheres ingressantes (55.5%)
+    foi maior que o de homens (44.5%).
+
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+      <div class='tableauPlaceholder' id='viz1472038344551' style='position: relative'>
+        <noscript>
+          <a href='#'>
+            <img alt='Porcentagem de Ingresso de Mulheres na UFCG '
+            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;IngressoMulheresUFCG&#47;PorcentagemIngressoMulheresUFCG&#47;1_rss.png'
+            style='border: none' />
+          </a>
+        </noscript>
+
+        <object class='tableauViz'  style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='site_root' value='' />
+        <param name='name' value='IngressoMulheresUFCG&#47;PorcentagemIngressoMulheresUFCG' />
+        <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;IngressoMulheresUFCG&#47;PorcentagemIngressoMulheresUFCG&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        </object>
+      </div>
+
+      <script type='text/javascript'> 
+        var divElement = document.getElementById('viz1472038344551');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+
+      <p>Dos centros, o que possui a maior média de entrada de mulheres, é o CCBS (57.17%). Por outro lado, os centros com menores médias são CEEI (16.47%) e CCT (35.33%). </p>
+  </p>
+
+  <br>
+
+  <p>
+    Analisando desde o período 2002.1 até 2016.1, o curso que possui a menor porcentagem de entrada de mulheres é Engenharia Mecânica (9.56%). Em contrapartida, Pedagogia, turnos matutino e noturno,
+    são os cursos com maior ingresso médio de mulheres neste período de tempo analisado (92.5% e 95.97%, respectivamente).
+
+  <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' id='viz1472039165360' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Porcentagem de Ingresso por Centro ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;IngressoMulheresUFCG&#47;PorcentagemIngressaoMulheresCentro&#47;1_rss.png'
+          style='border: none' />
+        </a>
+      </noscript>
+
+      <object class='tableauViz'  style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='site_root' value='' />
+        <param name='name' value='IngressoMulheresUFCG&#47;PorcentagemIngressaoMulheresCentro' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;IngressoMulheresUFCG&#47;PorcentagemIngressaoMulheresCentro&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+      </object>
+    </div>
+
+    <script type='text/javascript'>
+       var divElement = document.getElementById('viz1472039165360');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </p>
+
+  <br>
+
+  <h2>De onde vêm as mulheres da UFCG?</h2>
+  <p>
+    A maioria é natural do Nordeste. Com exceção da Paraíba, os estados com maior representatividade, são: Pernambuco, Ceará e Rio Grande do Norte. Em seguida, as naturais do Sudeste aparecem em maior
+    número,  onde grande parte vem de São Paulo ou do Rio de Janeiro.
+
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' id='viz1472039643676' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt='De onde vem as Mulheres da UFCG? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;IngressoMulheresUFCG&#47;MapaMulheres&#47;1_rss.png'
+        style='border: none' />
+      </a>
+
+      </noscript>
+        <object class='tableauViz'  style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='site_root' value='' />
+          <param name='name' value='IngressoMulheresUFCG&#47;MapaMulheres' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;IngressoMulheresUFCG&#47;MapaMulheres&#47;1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+        </object>
+    </div>
+
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1472039643676');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+    <br>
+
+    <p>É importante destacar que há algumas matrículas estrangeiras, 7 no total. Sendo elas dos países: Angola (CCBS), São Tomé e Príncipe (CCBS), Bolívia (CCT), França (CEEI), Cabo Verde (CH), Estados
+    Unidos da América (CH) e Alemanha (CTRN). </p>
+  </p>
+
+  <br>
+
+  <p>
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' id='viz1473198043499' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Participação das Paraibanas nos Cursos da UFCG ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;IngressoMulheresUFCG&#47;Planilha6&#47;1_rss.png'
+          style='border: none' />
+        </a>
+      </noscript>
+
+      <object class='tableauViz'  style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='site_root' value='' />
+        <param name='name' value='IngressoMulheresUFCG&#47;Planilha6' />
+        <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;IngressoMulheresUFCG&#47;Planilha6&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+      </object>
+    </div>
+
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1473198043499');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+    <p>O centro com maior porcentagem de estudantes vindas de outros estados é o CCBS (~45.35%), e o que possui a menor porcentagem é o CH (~16.18%).</p>
+  </p>
+
+  <br>
+
+  <h2>Como o CRA das mulheres se comportou no decorrer dos períodos?</h2>
+
+  <p>
+    No gráfico abaixo, fazemos uma comparação entre o CRA das mulheres e o CRA dos seus respectivos Centros.
+
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' id='viz1474663273094' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Como o CRA das mulheres se comportou no decorrer dos períodos? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;mu&#47;mulheresUFCG&#47;Planilha4&#47;1_rss.png'
+            style='border: none' />
+        </a>
+      </noscript>
+
+      <object class='tableauViz'  style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='site_root' value='' />
+        <param name='name' value='mulheresUFCG&#47;Planilha4' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;mu&#47;mulheresUFCG&#47;Planilha4&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+      </object>
+    </div>
+
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1474663273094');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </p>
+
+  <br>
+
+  <p>Devido a falta de dados consistentes, não foi possível obter o CRA para o CCBS em períodos anteriores a 2005.2.</p>
+
+  <br>
+
+  <p>De maneira geral, percebe-se que o desempenho das mulheres em todos os Centros da UFCG não se distancia muito da média dos mesmos.
+      No CTRN, cuja porcentagem de ingresso de mulheres ao longo do período de tempo analisado é de apenas 36.65%, podemos observar que o coeficiente de rendimento acadêmico médio das universitárias
+      por período, se mantém sempre maior ou igual a média, por período, deste Centro.
+      No CCT, onde a porcentagem de ingresso de mulheres é de 35.83%, a média por período destas se mantém ligeiramente superior à média por período do Centro desde o período 2004.1. Já no Centro de
+      Humanidades, cuja porcentagem média de ingresso de mulheres é de 54.79%, o único período em que as mulheres têm um CRA médio por período menor que o do Centro é em 2003.1.
+  </p>
+
+  <p>
+      Ficamos felizes com este fato, contudo, esperamos que os Centros, em especial os que possuem menor atuação das mulheres, possam, em conjunto, definir políticas de incentivo à participação destas na
+      comunidade acadêmica.
+  </p>
+
+  <p>
+    Em síntese, a partir da análise feita, percebemos que a participação das mulheres vem aumentando ao longo do tempo, tendo, inclusive, superado em alguns momentos a dos homens. Outro caso que
+    chama atenção é a presença expressiva, no CCBS, de mulheres vindas de outros estados.
+
+    Ficamos felizes com o fato de que a participação feminina esteja crescendo. Contudo, esperamos que os centros, em especial os que possuem menor atuação das mulheres, possam, em conjunto, definir
+    políticas de incentivo à participação destas na comunidade acadêmica.
+   </p>
+
+   <br>

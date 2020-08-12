@@ -1,0 +1,35 @@
+
+barra-busca {
+  display: block;
+  white-space: nowrap;
+  font-size: 10px;
+
+  position: relative;
+  z-index: 2;
+
+  width: 492px;
+  height: 28px;
+}
+
+barra-busca * {
+  font-family: 'Century Gothic', sans-serif;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+barra-busca select {
+  background: lightgray;
+  text-align: center;
+  text-indent: 5px;
+  width: 54px;
+}
+
+barra-busca select option {
+  background: white;
+}
+
+barra-busca input {
+  width: calc(100% - 73px);
+  padding: 0px 8px 0px 8px;
+}

@@ -1,0 +1,10 @@
+
+<img src='assets/img/setaEsquerda.png' ng-click='test(-6)' clickable>
+
+<div ng-init='index=0'>
+    <a ng-repeat='curso in cursos.slice(index) | limitTo: 6' ng-href='#/{{curso.schema}}' ng-style='getCor(curso.schema)' clickable>
+      {{curso.nome_comum}}
+    </a>
+</div>
+
+<img src='assets/img/setaDireita.png' ng-click='test(+6)' clickable>

@@ -1,0 +1,313 @@
+﻿﻿date: 2017-04-15
+author: 'Gleyser Guimarães, Lívia Campos, Italo Medeiros, Rohit Gheyi'
+title: Raio X do Projeto Olímpico da Computação@UFCG
+
+tags:
+  Tema: ['OPI', 'OBI', 'Olimpíadas de informática']
+  Data: ['Abril 2017']
+  Autor: ['Gleyser Guimarães', 'Lívia Campos', 'Italo Medeiros', 'Rohit Gheyi']
+
+abstract: >
+  <p>
+    Você sabia que o Projeto Olímpico da Computação@UFCG promove olimpíadas de informática na Paraíba desde 2008,
+    envolvendo mais de 5000 estudantes distribuídos por 17 cidades do estado? Esse estudo é um raio-X desse projeto,
+    valorizando seus resultados e observando sua evolução. Venha conferir!
+  </p>
+
+    <img src='blog/img/nuvemRaioXProjetoOlimpico.png'>
+
+article: >
+
+  <p>
+    Desde 2008, foram obtidas 54 medalhas de ouro nas olimpíadas regionais, 23 de ouro nas brasileiras e 2 de ouro
+    em premiações internacionais, chegando a obter medalha de ouro na Olimpíada Internacional de Informática na Tailândia, a 1ª medalha de ouro do Brasil.
+
+    O projeto também se preocupa com a preparação dos estudantes para as olimpíadas, em 2015 e 2016, 1800 alunos foram treinados para as olimpíadas,
+    resolvendo mais de 70 mil problemas e alcançando a marca de 500 mil linhas de código geradas. Tudo isso, reflete positivamente no nosso curso,
+    que já absorveu 110 competidores ao longo dos anos. Além de difundir o pensamento computacional que certamente irá influenciar as práticas na mais
+    diversas áreas.
+
+    O Projeto Olímpico da Computação@UFCG tem como objetivos principais ampliar a participação da Paraíba em Olimpíadas de informática regionais,
+    nacionais e internacionais, como também organizar e ministrar cursos de capacitação em disciplinas básicas importantes no cenário mundial na
+    área de Informática, atingindo alunos de escolas públicas e privadas de várias cidades do estado.
+  </p>
+
+  <h2>O número de participantes nas olimpíadas de informática na Paraíba vem crescendo ao longo dos anos?
+  </h2>
+
+  <p>
+    O Projeto Olímpico da Computação@UFCG tem como objetivos principais ampliar a participação da Paraíba em Olimpíadas de informática regionais,
+    nacionais e internacionais, como também organizar e ministrar cursos de capacitação em disciplinas básicas importantes no cenário mundial na
+    área de Informática, atingindo alunos de escolas públicas e privadas de várias cidades do estado.
+
+    Começamos observando que a quantidade de participantes da Paraíba nas olimpíadas vem crescendo ao longo dos anos. Apesar de em 2011 e 2016 ter
+    havido uma queda em relação ao ano anterior no número de participantes na OBI, se considerarmos como referência o ano de 2007, houve crescimento
+    de 164,7% em 2016. Já a OPI, tem tido crescimento mais rápido, por exemplo, de 2012  a 2015 o aumento foi de 353,1% e na OBI,
+    no mesmo período, o crescimento foi de 22,47%.
+  </p>
+
+  <p>
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder style='width: 982px; height: 742px;'>
+        <noscript>
+            <a href='#'>
+                <img alt='Participantes por ano e categoria' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;nu&#47;numeroDeInscritosPorAnoECompeticao&#47;ParticipantesPorAnoECategoria&#47;1_rss.png'
+                style='border= none' />
+            </a>
+        </noscript>
+        <object class='tableauViz' width='700' height='542' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='site_root' value='' />
+            <param name='name'
+                value='numeroDeInscritosPorAnoECompeticao&#47;ParticipantesPorAnoECategoria' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;nu&#47;numeroDeInscritosPorAnoECompeticao&#47;ParticipantesPorAnoECategoria&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='showTabs' value='y' />
+        </object>
+    </div>
+  </p>
+
+  <h2>Como a participação nas olimpíadas evoluiu ao longo do tempo?</h2>
+  <p>
+    As olimpíadas de computação estão presentes em 8 cidades da Paraíba = Piancó, Campina Grande, Areia, Guarabira, Solânea, João Pessoa, Cajazeiras e Patos.
+    A participação é maior na capital, João Pessoa, com 2365 competidores na OBI e 534 na OPI.
+  </p>
+
+  <p>
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' style='width= 982px; height= 742px;'>
+        <noscript>
+            <a href='#'>
+                <img alt='Participantes nas olimpíadas por cidade' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Participantesdasolimpadasporcidade&#47;Planilha3&#47;1_rss.png'
+                style='border= none' />
+            </a>
+        </noscript>
+        <object class='tableauViz' width='680' height='600' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='site_root' value='' />
+            <param name='name'
+                value='Participantesdasolimpadasporcidade&#47;Planilha3' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Participantesdasolimpadasporcidade&#47;Planilha3&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+        </object>
+    </div>
+  </p>
+
+  <p>
+    Apesar da participação das escolas públicas ter aumentado nos últimos anos, é o setor privado que tem maior representatividade, principalmente nas categorias iniciais.
+    Nas categorias Programação 2 e Universitária da OBI, a participação é maior no setor público, essencialmente, alunos da UFCG e IFPB.
+  </p>
+
+  <p>
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' style='width= 982px; height= 742px;'>
+        <noscript>
+            <a href='#'>
+            <img alt='Participantes das olimpíadas por categoria e tipo de escola' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Participantesdasolimpadasporcategoriaetipodeescola&#47;Planilha2&#47;1_rss.png'
+                style='border= none' />
+            </a>
+        </noscript>
+        <object class='tableauViz' width='680' height='642' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='site_root' value='' />
+            <param name='name' value='Participantesdasolimpadasporcategoriaetipodeescola&#47;Planilha2' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Participantesdasolimpadasporcategoriaetipodeescola&#47;Planilha2&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+             <param name='showTabs' value='y' />
+        </object>
+    </div>
+  </p>
+
+  <h2>Qual a qualidade das olimpíadas em termos de desempenho dos participantes?</h2>
+
+  <p>
+    Considerando a qualidade dos resultados obtidos pela Paraíba na OBI, observa-se que a maior concentração de medalhas está nas categorias de iniciação, que também reúne
+    a maior quantidade de participantes e consequentemente de prêmios distribuidos pela organziação da competição. Nos últimos 2 anos, em particular, os resultados tiveram
+    maior qualidade sempre com medalhas de ouro. Já nas categorias de programação, onde o número de competidores é menor, a Paraíba também tem crescido em resultados nos
+    últimos anos, com medalhas de ouro na categoria universitária e programação júnior.
+  </p>
+
+  <p>
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' style='width= 982px; height= 742px;'>
+        <noscript>
+            <a href='#'><img alt='Medalhas da Paraíba na OBI por ano' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MedalhasdaParabanaOBIporanoecategoria&#47;medalhasNaOBIPorCategoriaEAno&#47;1_rss.png'
+                style='border= none' />
+            </a>
+        </noscript>
+        <object class='tableauViz'  width='680' height='580' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='site_root' value='' />
+            <param name='name'
+                value='MedalhasdaParabanaOBIporanoecategoria&#47;medalhasNaOBIPorCategoriaEAno' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MedalhasdaParabanaOBIporanoecategoria&#47;medalhasNaOBIPorCategoriaEAno&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='showTabs' value='y' />
+        </object>
+    </div>
+  </p>
+
+  <h2>Qual o ranking nacional de prêmios? </h2>
+
+  <p>
+    A Paraíba ocupa a terceira posição no ranking de medalhas na OBI, ficando atrás de São Paulo e Ceará. A região nordeste possui boa participação no ranking de medalhas.
+  </p>
+
+  <p>
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' style='width= 982px; height= 742px;'>
+        <noscript>
+            <a href='#'>
+            <img alt='Ranking nacional de prêmios na OBI ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ra&#47;RankingOBI&#47;OBIPorEstadoEMedalha&#47;1_rss.png'
+                style='border= none' />
+                </a>
+        </noscript>
+        <object class='tableauViz'  width='680' height='600' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='site_root' value='' />
+            <param name='name' value='RankingOBI&#47;OBIPorEstadoEMedalha' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ra&#47;RankingOBI&#47;OBIPorEstadoEMedalha&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+        </object>
+    </div>
+  </p>
+
+  <h2>Existem participantes das olimpíadas que ingressaram na computação@ufcg? </h2>
+
+  <p>
+    Desde 2011 sempre teve ocorrência de participantes de olimpíadas de informática com ingresso na computação@ufcg, com maior incidência no primeiro período letivo e,
+    desde 2013, com presença de mulheres. Ao todo são 110 competidores que ingressaram em computação@ufcg e tiveram algum contato com olimpíadas, antes ou após o ingresso.
+
+    Observamos que existe participação na maioria das categorias, desde a iniciação, porém a maior participação é na categoria Universitária. Alguns competidores vem
+    competidando desde as categorias do ensino fundamental.
+  </p>
+
+  <p>
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' style='width= 982px; height= 742px;'>
+        <noscript>
+            <a href='#'>
+            <img
+                alt='Competidores que ingressaram em Computação@UFCG por período de ingresso e gênero'
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;competidoresqueingressaramemComputaoporperiodoletivoegenero&#47;competidoresCCCPorGeneroEPeriodoDeIngresso&#47;1_rss.png'
+                style='border= none' />
+            </a>
+        </noscript>
+        <object class='tableauViz'  width='680' height='600' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='site_root' value='' />
+            <param name='name'
+                value='competidoresqueingressaramemComputaoporperiodoletivoegenero&#47;competidoresCCCPorGeneroEPeriodoDeIngresso' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;competidoresqueingressaramemComputaoporperiodoletivoegenero&#47;competidoresCCCPorGeneroEPeriodoDeIngresso&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='showTabs' value='y' />
+        </object>
+    </div>
+  </p>
+
+  <h2>Qual o desempenho na graduação dos participantes das olimpíadas que ingressaram na computação@ufcg? </h2>
+
+  <p>
+    Considerando o desempenho dos alunos da computacao@ufcg, com algum contato com olimpíadas de informática, em disciplinas oferecidas por outros departamentos,
+    do primeiro ao quarto semestre, a maior média é na disciplina Fundamentos de Física Moderna, 8,485 e a menor é 5,956 em Cálculo I.
+  </p>
+
+  <p>
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' style='width= 982px; height= 742px;'>
+        <noscript>
+            <a href='#'>
+            <img
+                alt='Desempenho dos competidores em disciplinas de matemática e física '
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;competidoresedisciplinasdematemticaefsica&#47;competidoresEDisciplinasMatematicaEFisica&#47;1_rss.png'
+                style='border= none' />
+            </a>
+        </noscript>
+        <object class='tableauViz'  width='680' height='400' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='site_root' value='' />
+            <param name='name'
+                value='competidoresedisciplinasdematemticaefsica&#47;competidoresEDisciplinasMatematicaEFisica' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;competidoresedisciplinasdematemticaefsica&#47;competidoresEDisciplinasMatematicaEFisica&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+        </object>
+    </div>
+  </p>
+
+  <p>
+    Já nas disciplinas ministradas pelos professores do departamento de sistemas e computação, onde nenhuma das médias é menor que 7,0, a maior média é
+    em metodologia científica, 9,033. Em particular, nas disciplinas de programação, a maior média é na disciplina Programação I com 8,7564 e a menor em
+    Estrutura de Dados e Algoritmos com 8,0441. Nenhuma das médias é menor que 7.
+  </p>
+
+  <p>
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+    <div class='tableauPlaceholder' style='width= 982px; height= 742px;'>
+      <noscript>
+        <a href='#'>
+          <img alt='Desempenho dos competidores em disciplinas de computação ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;competidoresedisciplinasCC&#47;competidoresEDisciplinasCC&#47;1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' width='680' height='400' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='site_root' value='' />
+        <param name='name' value='competidoresedisciplinasCC&#47;competidoresEDisciplinasCC' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;competidoresedisciplinasCC&#47;competidoresEDisciplinasCC&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+      </object>
+    </div>
+  </p>

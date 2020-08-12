@@ -1,0 +1,14 @@
+
+<span class='title'> {{data.curso}} </span>
+
+<span class='body'>
+  Código: {{data.codigo_curso}} <br>
+  Código e-MEC: {{data.codigo_emec || "NA"}} <br>
+  Vagas (1ª entrada): {{data.vagas_primeira || "NA"}} <br>
+  Vagas (2ª entrada): {{data.vagas_segunda || "NA"}} <br>
+  Duração mínima: {{data.tempo_minimo? data.tempo_minimo + " anos" : "NA"}} <br>
+  Carga Horária: {{data.horas? data.horas + " horas" : "NA"}} <br>
+  Turno: {{data.turno == 1? "Diurno" : data.turno == 2? "Noturno" : "NA"}} <br>
+  <br>
+  Ato Normativo: {{data.ato_normativo || "NA"}}
+</span>
