@@ -42,5 +42,6 @@ Uma pessoa com interesse em desenvolvimento *web*, que tenha autonomia e proativ
 Eu, Fabio Morais, sou professor do curso de Computação da UFCG e participei do processo de desenvolvimento do sistema inicial. Não hesite em me contactar para mais informações sobre o projeto!
 
 - **E-mail**: fabio@computacao.ufcg.edu.br
+- **Discord**: @fabiomor
 - **GutHub**: [fabiomorais](https://github.com/fabiomorais)
 - **LinkedIn**: [famorais](https://www.linkedin.com/in/famorais/)
