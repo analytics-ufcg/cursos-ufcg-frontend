@@ -33,6 +33,20 @@ Nesse projeto o aluno terá a oportunidade de planejar um *design* de interface 
 	- A API atual utiliza a biblioteca [Flask](https://flask.palletsprojects.com/en/1.1.x/) de Python, mas podemos migrar para algo mais robusto e eficiente como [Node JS](https://nodejs.org/en/)
 - [Git](https://git-scm.com/) e [GitHub](https://github.com/) para versionamento de código
 
+## Cronograma sugerido (geral)
+
+### 1 - Desing e planejamento de interface
+- Desenvolvimento de esboço de interface responsiva
+- Validação de esboço com discentes do curso de Computação@UFCG
+
+### 2 - Aprendizado de tecnologias
+- Estudo e prática de desenvolvimento com AngularJS
+- Prática de utilização de APIs do Cursos UFCG
+
+### 3 - Desenvolvimento da interface
+- Desenvolvimento do esboço proposto utilizando AngularJS
+- Validação da interface desenvolvida via AngularJS
+
 ## O perfil do aprendiz
 
 Uma pessoa com interesse em desenvolvimento *web*, que tenha autonomia e proatividade na busca de conhecimento e soluções para o projeto. 
