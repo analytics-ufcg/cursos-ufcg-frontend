@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "andromedev"
+    }
+  },
+  "defaultProject": "andromedev",
+  "cli": {
+    "analytics": false
+  }
 }
