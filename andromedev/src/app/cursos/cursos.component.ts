@@ -14,7 +14,7 @@ import { ChildActivationStart } from '@angular/router';
 export class CursosComponent implements OnInit {
 
   Curso=[];
-  Disciplina=[]
+  Disciplinas=[]
   voltar:boolean=true
   
   constructor( private Cursos:Cursos) { }
@@ -24,7 +24,7 @@ export class CursosComponent implements OnInit {
   }
 
   getDisciplina(disciplina:string){
-    this.Cursos.getDisciplina(disciplina).then(data => this.Disciplina=data)
+    this.Cursos.getDisciplina(disciplina).then(data => this.Disciplinas=data)
     this.voltar=!this.voltar
   }
 
