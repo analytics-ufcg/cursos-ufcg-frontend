@@ -14,10 +14,10 @@ export class CursosService {
   getCursos():Observable<Curso[]>{
       return this.http.get<Curso[]>(`${this.url}cursos_2015`)
   }
-  async getCadeiras(cadeira_schema) {   
-    const urlCadeiras =  `${this.url}${cadeira_schema}/disciplinas`
-    const cadeira = await (await this.http.get<Disciplina[]>(urlCadeiras).toPromise())
+  async getDisciplina(disciplina_schema) {   
+    const urlDisciplina =  `${this.url}${disciplina_schema}/disciplinas`
+    const disciplina = await (await this.http.get<Disciplina[]>(urlDisciplina).toPromise())
     
-    return cadeira
+    return disciplina
 }
 }
