@@ -7,7 +7,7 @@ import {Disciplina} from '../interface/disciplina.interface'
 import { ChildActivationStart } from '@angular/router';
 
 @Component({
-  selector: 'app-cursos',
+  selector: 'cursos',
   templateUrl: './cursos.component.html',
   styleUrls: ['./cursos.component.css']
 })

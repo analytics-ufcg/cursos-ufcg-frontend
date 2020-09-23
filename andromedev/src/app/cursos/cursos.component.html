@@ -1,1 +1,8 @@
-<p>cursos works!</p>
+<div class="container">
+    <div class="row justify-content-center" >
+        <button type="button" 
+        *ngFor="let item of Curso" class="btn btn-outline-primary col-9 col-sm-4 col-md-3 p-3 m-3"
+        (click)="getCadeiras(item.schema)"
+        >{{item.nome_comum}}</button>
+    </div>
+</div>
