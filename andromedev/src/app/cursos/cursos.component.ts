@@ -12,11 +12,20 @@ import { ChildActivationStart } from '@angular/router';
   styleUrls: ['./cursos.component.css']
 })
 export class CursosComponent implements OnInit {
+
   Curso=[];
+
+  voltar:boolean=true
+  
   constructor( private Cursos:Cursos) { }
 
   ngOnInit(): void {
     this.Cursos.getCursos().subscribe(data => this.Curso=data)
   }
+
+  VoltarCurso(){
+    this.voltar=!this.voltar
+  }
+
 
 }
