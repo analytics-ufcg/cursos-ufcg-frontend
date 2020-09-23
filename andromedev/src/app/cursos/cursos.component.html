@@ -1,11 +1,23 @@
 <div class="container">
+
     <div class="row justify-content-center m-3">
         <button type="button" class="btn btn-outline-primary col-4 p-3 m-3" *ngIf="!voltar"(click)="VoltarCursos()">Voltar</button>
     </div>
+
     <div class="row justify-content-center" *ngIf="voltar">
         <button type="button" 
         *ngFor="let item of Curso" class="btn btn-outline-primary col-9 col-sm-4 col-md-3 p-3 m-3"
         (click)="getDisciplina(item.schema)"
         >{{item.nome_comum}}</button>
     </div>
+
+    <div class="row justify-content-md-center m-1" *ngIf="!voltar">
+        <ul class="list-group m-1 p-1 w-50 mw-50 h-50 mh-50 col-10 col-sm-4 col-md-3 p-3 m-3" *ngFor="let cadeira of Cadeiras" >
+            <li class="list-group-item active w-20 mw-20 mh-20 m-20">Disciplina: {{cadeira.disciplina}}</li>
+            <li class="list-group-item  w-10 mw-10 mh-10 m-10">Semestre: {{cadeira.semestre|| 0}}</li>
+            <li class="list-group-item  w-10 mw-10 mh-10 m-10">Tipo: {{cadeira.tipo}}</li>
+            <li class="list-group-item  w-10 mw-10 mh-10 m-10">Horas: {{cadeira.horas || 0 }}</li>
+          </ul>
+    </div>
+    
 </div>
