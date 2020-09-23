@@ -23,7 +23,7 @@ export class CursosComponent implements OnInit {
     this.Cursos.getCursos().subscribe(data => this.Curso=data)
   }
 
-  VoltarCurso(){
+  VoltarCursos(){
     this.voltar=!this.voltar
   }
 
