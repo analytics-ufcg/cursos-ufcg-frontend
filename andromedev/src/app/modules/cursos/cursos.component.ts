@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { Curso } from '../interface/cursos.interface';
 import {Observable} from 'rxjs'
 
-import {CursosService as Cursos} from './cursos.service'
-import {Disciplina} from '../interface/disciplina.interface'
+import {CursosService as Cursos} from '../../core/services/cursos/cursos.service'
+import {Disciplina} from '../../shared/models/disciplina.interface'
+import { Curso } from '../../shared/models/cursos.interface';
+
 import { ChildActivationStart } from '@angular/router';
 
 @Component({
