@@ -1,11 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Observable} from 'rxjs'
-
-import {CursosService as Cursos} from '../../core/services/cursos/cursos.service'
-import {Disciplina} from '../../shared/models/disciplina.interface'
-import { Curso } from '../../shared/models/cursos.interface';
-
-import { ChildActivationStart } from '@angular/router';
+import { Subscription } from 'rxjs';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'cursos',
@@ -14,24 +9,30 @@ import { ChildActivationStart } from '@angular/router';
 })
 export class CursosComponent implements OnInit {
 
-  Curso=[];
-  Disciplinas=[]
-  voltar:boolean=true
-  
-  constructor( private Cursos:Cursos) { }
+  id: number;
+  inscricao: Subscription;
+  curso: any;
 
-  ngOnInit(): void {
-    this.Cursos.getCursos().subscribe(data => this.Curso=data)
+  constructor(private route: ActivatedRoute,
+    private router: Router) { 
+    }
+
+  ngOnInit() {
+    this.inscricao = this.route.params.subscribe(
+      (params: any) => {
+        this.curso = params['curso'];
+      }
+    );
+  }
+  minhaGrade(){
+    console.log('oi')
+    this.router.navigate(['minha-grade']);
+  }
+  requisitos(){
+    this.router.navigate(['requisitos']);
   }
 
-  getDisciplina(disciplina:string){
-    this.Cursos.getDisciplina(disciplina).then(data => this.Disciplinas=data)
-    this.voltar=!this.voltar
+  ngOnDestroy(){
+    this.inscricao.unsubscribe();
   }
-
-  VoltarCursos(){
-    this.voltar=!this.voltar
-  }
-
-
 }

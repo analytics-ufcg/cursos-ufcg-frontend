@@ -8,6 +8,7 @@ import { Disciplina } from '../../../shared/models/disciplina.interface'
   providedIn: 'root'
 })
 export class CursosService {
+  disciplinas=[]
   private url = 'http://analytics.ufcg.edu.br/pre/'
   constructor(private http: HttpClient) { }
 
@@ -15,11 +16,14 @@ export class CursosService {
     return this.http.get<Curso[]>(`${this.url}cursos_2015`)
   }
 
-  async getDisciplina(disciplina_schema) {
+  async Disciplina(disciplina_schema) {
     const urlDisciplina = `${this.url}${disciplina_schema}/disciplinas`
-    const disciplina = await (await this.http.get<Disciplina[]>(urlDisciplina).toPromise()).sort(this.compare)
+    this.disciplinas = await (await this.http.get<Disciplina[]>(urlDisciplina).toPromise()).sort(this.compare)
 
-    return disciplina
+  }
+
+  async getDisciplina(){
+    return this.disciplinas
   }
 
   compare(a,b){

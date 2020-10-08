@@ -1,4 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
+import { ActivatedRoute, Router } from '@angular/router';
+
+import {CursosService} from '../../../core/services/cursos/cursos.service'
+import {Disciplina} from '../../../shared/models/disciplina.interface'
+import { Curso } from '../../../shared/models/cursos.interface';
 
 @Component({
   selector: 'app-minha-grade',
@@ -6,10 +12,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./minha-grade.component.css']
 })
 export class MinhaGradeComponent implements OnInit {
+  inscricao: Subscription;
+  Disciplinas=[]
+  curso:string
 
-  constructor() { }
+  constructor(private route: ActivatedRoute,
+    private router: Router,
+    private Cursos: CursosService) { 
+    }
+  ngOnInit() {
+        this.Cursos.getDisciplina().then(data => this.Disciplinas=data)
+  }
 
-  ngOnInit(): void {
+  ngOnDestroy(){
+    this.inscricao.unsubscribe();
   }
 
 }
