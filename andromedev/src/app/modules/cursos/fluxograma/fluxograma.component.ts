@@ -3,14 +3,13 @@ import { Subscription } from 'rxjs';
 import { ActivatedRoute, Router } from '@angular/router';
 
 import {CursosService} from '../../../core/services/cursos/cursos.service'
-
-
 @Component({
-  selector: 'app-minha-grade',
-  templateUrl: './minha-grade.component.html',
-  styleUrls: ['./minha-grade.component.css']
+  selector: 'app-fluxograma',
+  templateUrl: './fluxograma.component.html',
+  styleUrls: ['./fluxograma.component.css']
 })
-export class MinhaGradeComponent implements OnInit {
+export class FluxogramaComponent implements OnInit {
+
   inscricao: Subscription;
   Disciplinas=[]
   curso:string
@@ -22,8 +21,18 @@ export class MinhaGradeComponent implements OnInit {
     }
   ngOnInit() {
     this.Cursos.getDisciplina().then(e=> {
-      this.Disciplinas=e.disciplinas
+      this.curso=e.curso
+      this.Periodo=e.disciplinas.map(p=>{
+        return p.semestre
+      })
+      this.Periodo=this.Periodo.filter(p=>{
+        return p!=null
+      })
+      this.Periodo=[...new Set(this.Periodo)]
     })
+  }
+  viewPeriod(periodo){
+    this.router.navigate([`${this.curso}/fluxograma`,periodo]);
   }
 
   ngOnDestroy(){

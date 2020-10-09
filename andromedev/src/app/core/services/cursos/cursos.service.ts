@@ -26,7 +26,11 @@ export class CursosService {
   async  getDisciplina(){
     const urlDisciplina = `${this.url}${this.curso}/disciplinas`
     this.disciplinas = await (await this.http.get<Disciplina[]>(urlDisciplina).toPromise()).sort(this.compare)
-    return this.disciplinas
+    return {
+
+      disciplinas:this.disciplinas,
+      curso:this.curso
+    }
   }
   compare(a,b){
     if (a.periodo < b.periodo)
