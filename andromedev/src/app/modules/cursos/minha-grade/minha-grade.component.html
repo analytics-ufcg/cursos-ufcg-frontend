@@ -1,7 +1,17 @@
-<div class="container">
-  <div class="row justify-content-center" >
-      <button type="button" 
-      *ngFor="let item of Disciplinas" class="btn btn-outline-primary col-9 col-sm-4 col-md-2  m-2"
-      > {{item.disciplina}}</button>
+<div class="row justify-content-center">
+  <div 
+  class="m-1  col-9 col-sm-6 col-md-4 col-lg-3 border border-primary rounded" 
+  *ngFor="let item of DisciplinasPeriodo; let i=index">
+    <div class="row justify-content-center ">
+      <button type="button" class="btn btn-light " [SelectDiscipline]="i+1">{{i+1}}º Período</button>
+    </div>
+    <div class="row justify-content-around ">
+      <button 
+      id="disciplina.codigo_disciplina" type="button" 
+      *ngFor="let disciplina of item"
+        [SelectDiscipline]="disciplina.codigo_disciplina" 
+        class="btn btn-outline-primary col-9 col-sm-5 col-md-5 m-2">
+        {{disciplina.disciplina}}</button>
+    </div>
   </div>
 </div>

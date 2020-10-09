@@ -13,6 +13,7 @@ import {CursosService} from '../../../core/services/cursos/cursos.service'
 export class MinhaGradeComponent implements OnInit {
   inscricao: Subscription;
   Disciplinas=[]
+  DisciplinasPeriodo=[]
   curso:string
   Periodo=[]
 
@@ -23,9 +24,28 @@ export class MinhaGradeComponent implements OnInit {
   ngOnInit() {
     this.Cursos.getDisciplina().then(e=> {
       this.Disciplinas=e.disciplinas
+      this.Periodo=e.disciplinas.map(p=>{
+        return p.semestre
+      })
+      this.Periodo=this.Periodo.filter(p=>{
+        return p!=null
+      })
+      this.Periodo=[...new Set(this.Periodo)]
+      this.Periodo.map(e=>{
+        const DisciplinaP = this.Disciplinas.filter(f=>{
+          return e==f.semestre
+        })
+        this.DisciplinasPeriodo.push(DisciplinaP)
+      })    
+      console.log(this.DisciplinasPeriodo)
     })
   }
-
+  selectPeriod(periodo){
+    console.log(periodo)
+  }
+  selectDiscipline(disciplina){
+    console.log(disciplina)
+  }
   ngOnDestroy(){
     this.Disciplinas=[];
   }

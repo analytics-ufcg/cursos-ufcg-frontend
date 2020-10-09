@@ -9,11 +9,13 @@ import { SearchComponent } from './modules/search/search.component';
 import { AppRoutingModule } from './app.router.module';
 
 import {CursosService} from './core/services/cursos/cursos.service';
+import { SelectDisciplineDirective } from './shared/diretivas/select-discipline.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
+    SelectDisciplineDirective,
   ],
   imports: [
     BrowserModule,
