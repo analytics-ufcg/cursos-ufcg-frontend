@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Curso } from '../../shared/models/cursos.interface';
 import {CursosService as Cursos} from '../../core/services/cursos/cursos.service'
 import { Router } from '@angular/router';
 
@@ -19,8 +18,8 @@ export class SearchComponent implements OnInit {
     this.Cursos.getCursos().subscribe(data => this.Curso=data)
   }
   getDisciplina(curso:string){
+      this.Cursos.Disciplina(curso)
       this.router.navigate([``,curso]);
-
   }
 
 }

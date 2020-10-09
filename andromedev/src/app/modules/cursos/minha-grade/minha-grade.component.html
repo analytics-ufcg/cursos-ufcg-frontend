@@ -1,1 +1,8 @@
-<p>minha-grade works!</p>
+<div class="container">
+  <div class="row justify-content-center" >
+      <button type="button" 
+      *ngFor="let item of Periodo" class="btn btn-outline-primary col-9 col-sm-4 col-md-3 p-5 m-3"
+      (click)="getDisciplina(item)"
+      >Periodo: {{item}}</button>
+  </div>
+</div>
