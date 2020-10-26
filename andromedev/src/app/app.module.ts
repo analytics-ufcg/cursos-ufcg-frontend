@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app.router.module';
 
 import {CursosService} from './core/services/cursos/cursos.service';
 import { SelectDisciplineDirective } from './shared/diretivas/select-discipline.directive';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,10 @@ import { SelectDisciplineDirective } from './shared/diretivas/select-discipline.
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
+
+
   ],
   providers: [CursosService],
   bootstrap: [AppComponent]

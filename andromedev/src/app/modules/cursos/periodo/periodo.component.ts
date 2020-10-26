@@ -24,9 +24,15 @@ export class PeriodoComponent implements OnInit {
       this.periodo=params['periodo']
         this.Cursos.getDisciplina().then(e=> {
           this.Disciplinas=e.disciplinas.filter(p=>{
-            return p.semestre==this.periodo
+            if(p.semestre==this.periodo){
+              p.isCollapsed = true
+              return true
+            }     
+            else return false
           })
+          console.log(this.Disciplinas)
         })
+
       }
     );
   }
