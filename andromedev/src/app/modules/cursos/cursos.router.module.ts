@@ -11,8 +11,10 @@ const routes: Routes = [
         component: CursosComponent,
         children: [
             { path: 'minha-grade', component: MinhaGradeComponent },
-            { path: 'fluxograma', component: FluxogramaComponent, },
-            { path: 'fluxograma/:periodo', component: PeriodoComponent }
+            { path: 'fluxograma', component: FluxogramaComponent,children:[
+                { path: ':periodo', component: PeriodoComponent }
+
+            ] },
         ]
     }
 

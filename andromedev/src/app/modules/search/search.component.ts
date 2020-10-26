@@ -19,7 +19,7 @@ export class SearchComponent implements OnInit {
   }
   getDisciplina(curso:string){
       this.Cursos.Disciplina(curso)
-      this.router.navigate([``,curso]);
+      this.router.navigate([``,curso,'fluxograma']);
   }
 
 }
