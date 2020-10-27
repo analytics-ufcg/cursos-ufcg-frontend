@@ -7,3 +7,11 @@ body{
     outline: none !important;
     display: none!important;
 }
+
+.p-orderlist-controls{
+    display: none!important;
+}
+ul.p-orderlist-list{
+    display: none;
+    height: 500px;
+}

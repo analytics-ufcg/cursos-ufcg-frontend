@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app.router.module';
 
 import {CursosService} from './core/services/cursos/cursos.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {OrderListModule} from 'primeng/orderlist';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    OrderListModule
 
 
   ],

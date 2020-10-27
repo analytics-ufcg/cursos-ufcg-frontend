@@ -1,8 +1,11 @@
-<div class="container">
-    <div class="row justify-content-center" *ngIf="voltar">
-        <button type="button" 
-        *ngFor="let item of Curso" class="btn btn-outline-primary col-9 col-sm-4 col-md-3 p-3 m-3"
-        (click)="getDisciplina(item.schema)"
-        >{{item.nome_comum}}</button>
+<div class="row align-items-end">
+    <div class="col-5 align-self-center">
+        <p-orderList [value]="Curso"filterBy="nome_comum" [listStyle]="{'height':'500px'}" #filter (onFilterEvent)="focus()" filterPlaceholder="Search the course"
+            dragdrop="true">
+            <ng-template let-curso pTemplate="item" >
+                <button type="button" class="btn col-12 p-3"
+                    (click)="getDisciplina(curso.schema)">{{curso.nome_comum}}</button>
+            </ng-template>
+        </p-orderList>
     </div>
 </div>
