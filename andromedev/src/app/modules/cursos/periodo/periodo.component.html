@@ -1,14 +1,29 @@
-<div class="list-group">
-  <div class="list-group-item" *ngFor="let cadeira of Disciplinas">
-    <button type="button" class="btn btn-light m-0 col-12 " (click)="cadeira.isCollapsed = !cadeira.isCollapsed"
-      [attr.aria-expanded]="!cadeira.isCollapsed">{{cadeira.disciplina}}
-    </button>
-    <div attr.id="cadeira.codigo_disciplina" [collapse]="cadeira.isCollapsed" class="card-body">
-      <ul class="list-group m-1 p-1 col">
-        <li class="list-group-item  w-10 mw-10 mh-10 m-10">Semestre: {{cadeira.semestre}}</li>
-        <li class="list-group-item  w-10 mw-10 mh-10 m-10">Tipo: {{cadeira.tipo}}</li>
-        <li class="list-group-item  w-10 mw-10 mh-10 m-10">Horas: {{cadeira.horas}}</li>
-      </ul>
+<div class="" *ngFor="let cadeira of Disciplinas">
+  <button type="button" class="btn btn-light m-0 col-12 " (click)="cadeira.isCollapsed = !cadeira.isCollapsed"
+    [attr.aria-expanded]="!cadeira.isCollapsed">
+    <div class="row justify-content-between">
+      <div class="col-9"><h5>{{cadeira.disciplina}}</h5> </div>
+      <div class="col-2">
+        <svg [style.display]="cadeira.isCollapsed? 'none': 'inline'" width="1.0em" height="1.0em" viewBox="0 0 16 16"
+          class="bi bi-chevron-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+        </svg>
+        <svg [style.display]="!cadeira.isCollapsed? 'none':'inline'" width="1.0em" height="1.0em" viewBox="0 0 16 16"
+          class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+        </svg>
+      </div>
     </div>
+
+  </button>
+
+  <div attr.id="cadeira.codigo_disciplina" [collapse]="cadeira.isCollapsed" class="card-body col-12">
+    <ul class="list-group m-1 p-1 col">
+      <li class="list-group-item  w-10 mw-10 mh-10 m-10">Semestre: {{cadeira.semestre}}</li>
+      <li class="list-group-item  w-10 mw-10 mh-10 m-10">Tipo: {{cadeira.tipo}}</li>
+      <li class="list-group-item  w-10 mw-10 mh-10 m-10">Horas: {{cadeira.horas}}</li>
+    </ul>
   </div>
 </div>

@@ -15,6 +15,10 @@ export class FluxogramaComponent implements OnInit {
   curso:string
   Periodo=[]
 
+  itemsPerSlide = 4;
+  singleSlideOffset = true;
+  noWrap = true;
+
   constructor(private route: ActivatedRoute,
     private router: Router,
     private Cursos: CursosService) { 

@@ -3,3 +3,7 @@
 body{
     border: none;
 }
+.p-carousel-indicators{
+    outline: none !important;
+    display: none!important;
+}

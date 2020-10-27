@@ -1,9 +1,14 @@
 <div class="container">
-    <div class="row justify-content-center" >
-        <button type="button" 
-        *ngFor="let item of Periodo" class="btn btn-outline-primary col-9 col-sm-4 col-md-3 p-4 m-3"
-        (click)="viewPeriod(item)"
-        >Periodo: {{item}}</button>
-    </div>
+    <p-carousel [value]="Periodo" [numVisible]="6" [numScroll]="5">
+        <ng-template let-p pTemplate="item" class="row">
+           <button type="button" class="btn ml-5 my-5" (click)="viewPeriod(p)">
+            <div class="card border-info" style="max-width: 30rem;">
+                <div class="card-body text-info">
+                  <h3 class="card-title">{{p}}</h3>
+                </div>
+              </div>
+           </button>
+        </ng-template>
+    </p-carousel>
 </div>
 <router-outlet></router-outlet>
