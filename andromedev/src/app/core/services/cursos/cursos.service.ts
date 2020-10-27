@@ -32,6 +32,26 @@ export class CursosService {
       curso:this.curso
     }
   }
+  getPos(codigo){
+    const pos = codigo.map(p =>{
+      const cadeira = this.disciplinas.filter(e =>{
+         return e.codigo_disciplina==p
+      })
+      return cadeira
+    })
+    return pos.flat()
+  }
+  getPre(codigo){
+    const pre = codigo.map(p =>{
+      console.log('p',p)
+      const cadeira = this.disciplinas.filter(e =>{
+         return e.codigo_disciplina==p
+      })
+      return cadeira
+    })
+    return pre.flat()
+
+  }
   compare(a,b){
     if (a.periodo < b.periodo)
      return -1;

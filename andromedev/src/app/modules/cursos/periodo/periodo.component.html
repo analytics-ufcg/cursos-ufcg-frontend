@@ -20,10 +20,25 @@
   </button>
 
   <div attr.id="cadeira.codigo_disciplina" [collapse]="cadeira.isCollapsed" class="card-body col-12">
-    <ul class="list-group m-1 p-1 col">
-      <li class="list-group-item  w-10 mw-10 mh-10 m-10">Semestre: {{cadeira.semestre}}</li>
-      <li class="list-group-item  w-10 mw-10 mh-10 m-10">Tipo: {{cadeira.tipo}}</li>
-      <li class="list-group-item  w-10 mw-10 mh-10 m-10">Horas: {{cadeira.horas}}</li>
+    <ul class="list-group row list-group-horizontal">
+      <li class="list-group-item col-4">Semestre: {{cadeira.semestre}}</li>
+      <li class="list-group-item col-4">Tipo: {{cadeira.tipo}}</li>
+      <li class="list-group-item col-4">Horas: {{cadeira.horas}}</li>
+      <li class="list-group-item  col-4 ">Pré Requisitos</li>
+      <li class="list-group-item col-12">
+        <ul class="list-group  list-group-horizontal" *ngFor="let pre of cadeira.pre">
+          <li class="list-group-item " >Disciplina: {{pre.disciplina}}</li>
+          <li class="list-group-item " >Periodo: {{pre.semestre}}</li>
+        </ul>
+      </li>
+      <li class="list-group-item ">Pós Requisitos</li>
+      <li class="list-group-item col-12">
+        <ul class="list-group list-group-horizontal" *ngFor="let pos of cadeira.pos">
+          <li class="list-group-item" >Disciplina: {{pos.disciplina}}</li>
+          <li class="list-group-item " >Periodo: {{pos.semestre}}</li>
+        </ul>
+      </li>
+      
     </ul>
   </div>
 </div>
