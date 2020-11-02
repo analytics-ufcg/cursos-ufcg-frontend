@@ -12,7 +12,7 @@ export class CursosComponent implements OnInit {
   id: number;
   inscricao: Subscription;
   curso: any;
-  fluxograma:boolean = false
+  fluxograma:boolean = true
   grade:boolean = false
 
   constructor(private route: ActivatedRoute,
@@ -34,7 +34,12 @@ export class CursosComponent implements OnInit {
   }
   active(rota){
     if(rota=='fluxograma'){
-      console.log('oi')
+      this.fluxograma=true
+      this.grade=false
+    }
+    else{
+      this.fluxograma=false
+      this.grade=true
     }
   }
   ngOnDestroy(){

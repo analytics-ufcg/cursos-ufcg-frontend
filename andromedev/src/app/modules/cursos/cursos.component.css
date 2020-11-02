@@ -1,26 +1,69 @@
-.menu{
+.menu {
     height: 100vh;
     margin: 0px!important;
     padding: 0px;
     background-color: #0C9FFA;
     border-radius: 5px;
-    width: 20vw;
+    width: 20%!important;
 }
-.conteudo{
-    width: 75vw;
+
+
+
+.header {
+    margin: 10%;
 }
-.activeLink{
-    height: 4vh; 
-    width: 3px; 
-    float: left;
-    margin: 0;
-    background-color: #fff; 
-}
-a,a:hover{
+
+a, a:hover {
     text-decoration: none;
     color: #fff;
 }
-.button:hover{
-    background-color: #0098F2;
 
+.buttonContainer:hover{
+    background-color: #0098F2;
+    color: #fff;
+    height: 7vh;
+}
+
+.buttonContainer {
+    color: #fff;
+    height: 7vh;
+}
+
+.button {
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.iconCurso {
+    float: left;
+    color: #fff;
+}
+
+.activeLink {
+    height: 100%;
+    width: 1%;
+    float: left;
+    padding: 2px;
+    background-color: #fff;
+}
+
+.conteudo {
+    height: 100vh;
+    width: 75%;
+}
+@media screen and (max-width: 650px) {
+    .menu {
+        height: 100vh;
+        margin: 0px!important;
+        padding: 0px;
+        background-color: #0C9FFA;
+        border-radius: 5px;
+        width: 40%!important;
+    }
+    .conteudo {
+        height: 100vh;
+        width: 60%;
+    }
 }
