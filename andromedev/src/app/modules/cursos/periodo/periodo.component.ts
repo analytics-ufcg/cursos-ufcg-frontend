@@ -25,7 +25,7 @@ export class PeriodoComponent implements OnInit {
         this.Cursos.getDisciplina().then(e=> {
           this.Disciplinas=e.disciplinas.filter(p=>{
             if(p.semestre==this.periodo){
-              p.isCollapsed = true
+              p.isCollapsed = false
               p.pre = this.Cursos.getPre(p.pre_requisitos)
               p.pos= this.Cursos.getPos(p.pos_requisitos)
               return true
@@ -37,6 +37,15 @@ export class PeriodoComponent implements OnInit {
 
       }
     );
+  }
+  isCollapsed(id){
+    this.Disciplinas.forEach(e=>{
+      if(e.codigo_disciplina==id){
+        e.isCollapsed = ! e.isCollapsed
+      } else{
+        e.isCollapsed = false
+      } 
+    })
   }
 
 }

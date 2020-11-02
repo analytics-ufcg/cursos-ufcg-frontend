@@ -1,10 +1,10 @@
 <div class="container">
     <p-carousel [value]="Periodo" [numVisible]="6" [numScroll]="5">
-        <ng-template let-p pTemplate="item" class="row">
-           <button type="button" class="btn ml-5 my-5" (click)="viewPeriod(p)">
+        <ng-template let-p pTemplate="item" class="row button">
+           <button type="button" class="btn ml-5 my-2" (click)="viewPeriod(p)">
             <div class="card border-info" style="max-width: 30rem;">
                 <div class="card-body text-info">
-                  <h3 class="card-title">{{p}}</h3>
+                  <h5 class="card-title">{{p}}</h5>
                 </div>
               </div>
            </button>

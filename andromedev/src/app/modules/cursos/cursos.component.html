@@ -1,12 +1,23 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-light row">
-        <a class="navbar-brand col-12 col-sm-4 col-md-2 " href="#">Cursos UFCG</a>
-        <ul class="navbar-nav row justify-content-center">
-            <li class="nav-item col-12 ml-4 col-sm-4 col-md-4" routerLinkActive="active">
-                <a class="nav-link" routerLink="fluxograma">Fluxograma</a>
-            </li>
-            <li class="nav-item col-12 ml-4 col-sm-6 col-md-6" routerLinkActive="active">
-                <a class="nav-link" routerLink="minha-grade">Minha Grade</a>
-            </li>
-        </ul>
-    </nav>
-<router-outlet></router-outlet>
+<div class="row ">
+    <div class="menu">
+        <div class="col-12 pt-4 ml-3">
+            <a class="col-12" href="#">
+                <h5>Cursos UFCG</h5>
+            </a>
+        </div>
+        <hr />
+        <div class="col-12 py-2 button">
+            <div class="activeLink"></div>
+            <a class="m-2" (click)="active('fluxograma')" routerLink="fluxograma">Fluxograma</a>
+        </div>
+        <div class="col-12 py-3 button">
+            <div class="activeLink"></div>
+            <a class="m-2" (click)="active('minha-grade')" routerLink="minha-grade">Minha
+                Grade</a>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <router-outlet></router-outlet>
+    </div>
+</div>

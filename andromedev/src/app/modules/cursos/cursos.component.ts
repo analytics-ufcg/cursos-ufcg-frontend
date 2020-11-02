@@ -12,6 +12,8 @@ export class CursosComponent implements OnInit {
   id: number;
   inscricao: Subscription;
   curso: any;
+  fluxograma:boolean = false
+  grade:boolean = false
 
   constructor(private route: ActivatedRoute,
     private router: Router) { 
@@ -25,13 +27,16 @@ export class CursosComponent implements OnInit {
     );
   }
   minhaGrade(){
-    console.log('oi')
     this.router.navigate(['minha-grade']);
   }
   requisitos(){
     this.router.navigate(['requisitos']);
   }
-
+  active(rota){
+    if(rota=='fluxograma'){
+      console.log('oi')
+    }
+  }
   ngOnDestroy(){
     this.inscricao.unsubscribe();
   }

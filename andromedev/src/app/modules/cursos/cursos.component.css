@@ -1,0 +1,26 @@
+.menu{
+    height: 100vh;
+    margin: 0px!important;
+    padding: 0px;
+    background-color: #0C9FFA;
+    border-radius: 5px;
+    width: 20vw;
+}
+.conteudo{
+    width: 75vw;
+}
+.activeLink{
+    height: 4vh; 
+    width: 3px; 
+    float: left;
+    margin: 0;
+    background-color: #fff; 
+}
+a,a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.button:hover{
+    background-color: #0098F2;
+
+}
