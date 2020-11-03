@@ -10,8 +10,8 @@ import {OrderListModule} from 'primeng/orderlist';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  @ViewChild('filter') filter: ElementRef<OrderListModule>;
-  lista: ElementRef<any>
+  filter=false
+  lista:any[]
   Curso=[];
   voltar:boolean=true
   
@@ -25,17 +25,23 @@ export class SearchComponent implements OnInit {
       this.Cursos.Disciplina(curso)
       this.router.navigate([``,curso,'fluxograma']);
   }
-  focus(){
-    if(this.filter['filterValue']==''){
-      this.lista= this.filter['listViewChild']
-      this.lista.nativeElement.style.display='none'
+  focus(evento){
+    if(evento==''){
+      this.lista=[]
+      this.filter=false
     }
     else{
-      this.lista= this.filter['listViewChild']
-      this.lista.nativeElement.style.display='inline'
+      this.lista = this.Curso.filter(e=>{
+        const nome= e.nome_comum.toLowerCase()
+         return nome.indexOf(evento)!=-1
+      })
+      if(this.lista.length==0){
+        this.filter=false
+      }
+      else{
+        this.filter=true
+      }
     }
-      
-
-  }
+     }
 
 }

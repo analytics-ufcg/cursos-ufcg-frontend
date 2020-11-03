@@ -1,6 +1,76 @@
-.filter{
-    margin: 0px;
+.containerInicial{
+    width: 100vw;
+    height: 100vh;
 }
-.p-orderlist-list{
-    display: none!important;
+.containerFilter{
+    width: 30%;
+    float: left;
+   
+}
+.filterInput,.filterInput:hover{
+    outline: none;
+    border: solid #fff 1px; 
+    border-radius: 20px;
+    width: 100%;
+    height: 7vh;
+    padding: 15px;
+}
+.filterCursos{
+    border: solid #fff 1px;
+    border-radius: 20px;
+    background-color: #fff;
+    height: 70%;
+    height: 30vh;
+    
+    overflow: auto;
+}
+.headerSearch{
+    margin: 20px;
+    padding-bottom: 30%;
+    font-family: 'Times New Roman', Times, serif;
+ }
+.headerSearch h5{
+    font-size: 3vw;
+}
+.containerImg{
+    width: 70%;
+    float: right;
+    margin-right: 0px;
+}
+.analytics{
+    width: 100%;
+    height: 100vh;
+    background-color: #0C9FFA;
+    margin-right: 0px;
+}
+@media screen and (max-width: 750px) {
+    .containerFilter{
+        width: 40%;
+        float: left;
+       
+    }
+    .containerImg{
+        width: 60%;
+        float: right;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .containerFilter{
+        width: 100%;
+        float: left;
+       
+    }
+    .containerImg{
+        width: 0%;
+        float: right;
+        margin-right: 0px;
+    }
+    .headerSearch{
+        margin: 20px;
+        padding-bottom: 4%;
+     }
+     .headerSearch h5{
+        font-size: 7vw;
+    }
 }

@@ -1,9 +1,9 @@
 <div class="row row-cols-1 row-cols-md-2 justify-content-around">
   <div class="col" *ngFor="let cadeira of Disciplinas">
-    <div class="cardDisciplina rounded-100" (click)="isCollapsed(cadeira.codigo_disciplina)">
+    <div class="cardDisciplina" (click)="isCollapsed(cadeira.codigo_disciplina)">
       <div class="header row">
         <div class="activeButton " [style.background-color]="cadeira.localizar ? '#F8433F' : '#0C9FFA'"></div>
-        <div class="mx-2">
+        <div class="ml-2 disciplina">
           {{cadeira.disciplina}}
         </div>
        </div>

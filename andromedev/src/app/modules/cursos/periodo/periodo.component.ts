@@ -26,6 +26,9 @@ export class PeriodoComponent implements OnInit {
     })
   }
   localizar(disciplinas){
+    this.Disciplinas.forEach(e=>{
+      e.localizar=false
+    })
     this.disciplinasLocalizar.emit(disciplinas)
   }
 

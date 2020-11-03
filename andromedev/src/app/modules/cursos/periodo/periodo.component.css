@@ -2,17 +2,39 @@
     border: solid #fff 1px;
     margin-left: 20px;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 5%;
     border-radius: 20px;
     font-display: center;
     background-color: #fff;
 }
 .header{
     font-size: 105%;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .activeButton{
     height: 5vh;
     width: 2px!important;
     float: left;
+}
+.disciplina{
+    width: 20vw;
+}
+@media screen and (max-width: 670px) {
+    .cardDisciplina{
+        border: solid #fff 1px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 5%;
+        border-radius: 20px;
+        font-display: center;
+        background-color: #fff;
+    }
+    .activeButton{
+        height: 5vh;
+        width: 2px!important;
+        float: left;
+    }
+    .disciplina{
+        width: 30vw;
+    }
 }
