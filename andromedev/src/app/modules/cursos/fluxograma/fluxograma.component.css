@@ -1,0 +1,11 @@
+.selected{
+    background-color: #00baf2;
+}
+.localizar{
+    border: solid red 1px;
+    background-color: #fff;
+}
+.button{
+    border: solid #0098F2 1px;
+    background-color: #fff;
+}

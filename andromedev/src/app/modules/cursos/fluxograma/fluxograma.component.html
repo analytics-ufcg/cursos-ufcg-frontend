@@ -1,14 +1,9 @@
 <div class="container">
-    <p-carousel [value]="Periodo" [numVisible]="6" [numScroll]="5">
-        <ng-template let-p pTemplate="item" class="row button">
-           <button type="button" class="btn ml-5 my-2" (click)="viewPeriod(p)">
-            <div class="card border-info" style="max-width: 30rem;">
-                <div class="card-body text-info">
-                  <h5 class="card-title">{{p}}</h5>
-                </div>
-              </div>
-           </button>
+    <p-carousel [value]="Periodos" [numVisible]="6" [numScroll]="5">
+        <ng-template let-p pTemplate="item" class="row">
+           <button id="{{p.periodo}}"type="button" class="btn m-3 p-3" [ngClass]="p.selected==true?'selected':p.localizar==true?'localizar':'button'"
+           (click)="viewPeriod(p.periodo)"(click)="selected(p.periodo)">{{p.periodo}}</button>
         </ng-template>
     </p-carousel>
 </div>
-<router-outlet></router-outlet>
+<periodo [periodo]="periodo" (disciplinasLocalizar)="localizar($event)"></periodo>

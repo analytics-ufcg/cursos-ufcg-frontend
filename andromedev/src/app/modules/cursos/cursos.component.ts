@@ -26,12 +26,6 @@ export class CursosComponent implements OnInit {
       }
     );
   }
-  minhaGrade(){
-    this.router.navigate(['minha-grade']);
-  }
-  requisitos(){
-    this.router.navigate(['requisitos']);
-  }
   active(rota){
     if(rota=='fluxograma'){
       this.fluxograma=true

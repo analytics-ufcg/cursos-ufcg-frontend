@@ -53,7 +53,7 @@ a, a:hover {
     height: 100vh;
     width: 75%;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 670px) {
     .menu {
         height: 100vh;
         margin: 0px!important;

@@ -2,7 +2,6 @@ import { Routes, RouterModule } from '@angular/router'
 import { CursosComponent } from './cursos.component'
 import { NgModule } from '@angular/core';
 
-import { PeriodoComponent } from './periodo/periodo.component'
 import { MinhaGradeComponent } from './minha-grade/minha-grade.component'
 import { FluxogramaComponent } from './fluxograma/fluxograma.component'
 const routes: Routes = [
@@ -11,10 +10,7 @@ const routes: Routes = [
         component: CursosComponent,
         children: [
             { path: 'minha-grade', component: MinhaGradeComponent },
-            { path: 'fluxograma', component: FluxogramaComponent,children:[
-                { path: ':periodo', component: PeriodoComponent }
-
-            ] },
+            { path: 'fluxograma', component: FluxogramaComponent},
         ]
     }
 
