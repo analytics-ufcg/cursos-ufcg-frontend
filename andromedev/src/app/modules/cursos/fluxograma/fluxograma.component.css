@@ -9,3 +9,15 @@
     border: solid #0098F2 1px;
     background-color: #fff;
 }
+.buttonC{
+    margin: 10%;
+    padding: 12%;
+}
+@media screen and (max-width: 670px) {
+    .containerFluxograma{
+        margin: 2%;
+    }
+    .buttonC{
+        padding: 15%;
+    }
+}

@@ -15,11 +15,35 @@ export class FluxogramaComponent implements OnInit {
   curso: string
   Periodos = []
   periodo = []
-  DisciplinaLocalizar=[]
+  DisciplinaLocalizar = []
+  responsiveOptions = []
 
   constructor(private route: ActivatedRoute,
     private router: Router,
     private Cursos: CursosService) {
+    this.responsiveOptions = [
+      {
+        breakpoint: '800px',
+        numVisible: 5,
+        numScroll: 5
+      },
+      {
+        breakpoint: '670px',
+        numVisible: 5,
+        numScroll: 5
+      },
+      {
+        breakpoint: '350px',
+        numVisible: 5,
+        numScroll:5
+      },
+      {
+        breakpoint: '100px',
+        numVisible: 1,
+        numScroll: 1
+      },
+
+    ];
   }
   ngOnInit() {
     this.Cursos.getDisciplina().then(e => {
@@ -30,7 +54,7 @@ export class FluxogramaComponent implements OnInit {
         return {
           periodo: e,
           selected: false,
-          localizar:false
+          localizar: false
         }
       })
     })
@@ -57,16 +81,16 @@ export class FluxogramaComponent implements OnInit {
   }
   localizar(disciplinas) {
     const periodos = this.summarizeData(disciplinas)
-    this.Periodos.forEach(e=>{
-      if(periodos.indexOf(e.periodo)!=-1){
+    this.Periodos.forEach(e => {
+      if (periodos.indexOf(e.periodo) != -1) {
 
-        e.localizar=true
+        e.localizar = true
       }
-      else{
-        e.localizar=false
+      else {
+        e.localizar = false
       }
     })
-    this.DisciplinaLocalizar=disciplinas
+    this.DisciplinaLocalizar = disciplinas
   }
   viewPeriod(periodo) {
 
@@ -76,7 +100,7 @@ export class FluxogramaComponent implements OnInit {
           p.isCollapsed = false
           p.pre = this.Cursos.getPre(p.pre_requisitos)
           p.pos = this.Cursos.getPos(p.pos_requisitos)
-          p.localizar=false
+          p.localizar = false
           return true
         }
         else return false
@@ -85,21 +109,21 @@ export class FluxogramaComponent implements OnInit {
         e.disciplinaPre = this.concatDisci(e.pre)
         e.disciplinaPos = this.concatDisci(e.pos)
       })
-      this.periodo.forEach(e=>{
-        const verification = this.DisciplinaLocalizar.filter(p=>{
-          if(p.codigo_disciplina==e.codigo_disciplina){
+      this.periodo.forEach(e => {
+        const verification = this.DisciplinaLocalizar.filter(p => {
+          if (p.codigo_disciplina == e.codigo_disciplina) {
             return true
           }
         })
-        if(verification.length!=0){
-          e.localizar=true
+        if (verification.length != 0) {
+          e.localizar = true
         }
-        else{
-          e.localizar=false
+        else {
+          e.localizar = false
         }
       })
     })
-    
+
 
   }
   concatDisci(dis) {

@@ -1,7 +1,7 @@
-<div class="container">
-    <p-carousel [value]="Periodos" [numVisible]="6" [numScroll]="5">
+<div class="containerFluxograma">
+    <p-carousel [value]="Periodos" [numVisible]="5" [numScroll]="6" [responsiveOptions]="responsiveOptions">
         <ng-template let-p pTemplate="item" class="row">
-           <button id="{{p.periodo}}"type="button" class="btn m-3 p-3" [ngClass]="p.selected==true?'selected':p.localizar==true?'localizar':'button'"
+           <button id="{{p.periodo}}"type="button" class="btn buttonC" [ngClass]="p.selected==true?'selected':p.localizar==true?'localizar':'button'"
            (click)="viewPeriod(p.periodo)"(click)="selected(p.periodo)">{{p.periodo}}</button>
         </ng-template>
     </p-carousel>

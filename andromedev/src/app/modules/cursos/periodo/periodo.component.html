@@ -1,34 +1,34 @@
-<div class="row row-cols-1 row-cols-md-2 justify-content-around">
-  <div class="col" *ngFor="let cadeira of Disciplinas">
-    <div class="cardDisciplina" (click)="isCollapsed(cadeira.codigo_disciplina)">
-      <div class="header row">
-        <div class="activeButton " [style.background-color]="cadeira.localizar ? '#F8433F' : '#0C9FFA'"></div>
-        <div class="ml-2 disciplina">
-          {{cadeira.disciplina}}
+<div *ngFor="let cadeira of Disciplinas">
+  <div class="cardDisciplina" (click)="isCollapsed(cadeira.codigo_disciplina)">
+    <div class="header row">
+      <div class="activeButton " [style.background-color]="cadeira.localizar ? '#F8433F' : '#0C9FFA'"></div>
+      <div class="ml-2 disciplina">
+        {{cadeira.disciplina}}
+      </div>
+    </div>
+    <div class="card-body row m-0" [style.display]="cadeira.isCollapsed ? 'grid' : 'none'">
+      <div class="row">
+        <h6 class="col-5">Tipo:</h6>
+        <p class="col-6">{{cadeira.tipo}}</p>
+      </div>
+      <div class="row">
+        <h6 class="col-5">Horas:</h6>
+        <p class="col-6">{{cadeira.horas}}</p>
+      </div>
+      <div class="row">
+        <h6 class="col-12">Pré-Requisitos:</h6>
+        <p class="col-12 ml-2">{{cadeira.disciplinaPre}}</p>
+        <h6 class="col-12">Pós-Requisitos:</h6>
+        <p class="col-12 ml-2">{{cadeira.disciplinaPos}}</p>
+      </div>
+      <div class="row">
+        <h6 class="col-12">Localizar:</h6>
+        <div class="row-col-2 mx-2">
+          <button type="button" class="btn btn-outline-primary m-2"
+            (click)="localizar(cadeira.pre)">Pré-requisitos</button>
+          <button type="button" class="btn btn-outline-primary m-2"
+            (click)="localizar(cadeira.pos)">Pós-requisitos</button>
         </div>
-       </div>
-      <div class="card-body row m-0" [style.display]="cadeira.isCollapsed ? 'grid' : 'none'">
-        <div class="row">
-          <h6 class="col-5">Tipo:</h6>
-          <p class="col-6">{{cadeira.tipo}}</p>
-        </div>
-        <div class="row">
-          <h6 class="col-5">Horas:</h6>
-          <p class="col-6">{{cadeira.horas}}</p>
-        </div>
-        <div class="row">
-          <h6 class="col-12">Pré-Requisitos:</h6>
-          <p class="col-12 ml-2">{{cadeira.disciplinaPre}}</p>
-          <h6 class="col-12">Pós-Requisitos:</h6>
-          <p class="col-12 ml-2">{{cadeira.disciplinaPos}}</p>
-        </div>
-        <div class="row">
-            <h6 class="col-12">Localizar:</h6>
-            <div class="row-col-2 mx-2">
-              <button type="button" class="btn btn-outline-primary m-2" (click)="localizar(cadeira.pre)">Pré-requisitos</button>
-              <button type="button" class="btn btn-outline-primary m-2"(click)="localizar(cadeira.pos)">Pós-requisitos</button>
-            </div>
-          </div>
-        </div>
+      </div>
     </div>
   </div>
