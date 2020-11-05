@@ -15,11 +15,11 @@
         <h6 class="col-5">Horas:</h6>
         <p class="col-6">{{cadeira.horas}}</p>
       </div>
-      <div class="row">
-        <h6 class="col-12">Pré-Requisitos:</h6>
-        <p class="col-12 ml-2">{{cadeira.disciplinaPre}}</p>
-        <h6 class="col-12">Pós-Requisitos:</h6>
-        <p class="col-12 ml-2">{{cadeira.disciplinaPos}}</p>
+      <div class="row" *ngIf="cadeira.pre_requisitos.length!=0 || cadeira.pos_requisitos.length!=0">
+        <h6 class="col-12" *ngIf="cadeira.pre_requisitos.length!=0">Pré-Requisitos:</h6>
+        <p class="col-12 ml-2" *ngIf="cadeira.pre_requisitos.length!=0">{{cadeira.disciplinaPre}}</p>
+        <h6 class="col-12" *ngIf="cadeira.pos_requisitos.length!=0">Pós-Requisitos:</h6>
+        <p class="col-12 ml-2 "*ngIf="cadeira.pos_requisitos.length!=0">{{cadeira.disciplinaPos}}</p>
       </div>
       <div class="row">
         <h6 class="col-12">Localizar:</h6>
