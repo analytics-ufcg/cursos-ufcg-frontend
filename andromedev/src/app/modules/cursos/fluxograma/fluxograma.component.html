@@ -1,9 +1,10 @@
 <div class="containerFluxograma">
     <p-carousel [value]="Periodos" [numVisible]="5" [numScroll]="6" [responsiveOptions]="responsiveOptions">
         <ng-template let-p pTemplate="item" class="row">
-           <button id="{{p.periodo}}"type="button" class="btn buttonC" [ngClass]="p.selected==true?'selected':p.localizar==true?'localizar':'button'"
-           (click)="viewPeriod(p.periodo)"(click)="selected(p.periodo)">{{p.periodo}}</button>
+           <button id="{{p.periodo}}"type="button" class="buttonC btn"
+           [ngClass]="p.selected==true?'selected':'button'"
+           (click)="viewPeriod(p.periodo)" (click)="selected(p.periodo)">{{p.periodo}}</button>
         </ng-template>
     </p-carousel>
 </div>
-<periodo [periodo]="periodo" (disciplinasLocalizar)="localizar($event)"></periodo>
+<router-outlet ></router-outlet>

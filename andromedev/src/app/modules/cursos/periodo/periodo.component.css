@@ -15,9 +15,10 @@
     height: 5vh;
     width: 2px!important;
     float: left;
+    background-color:  #0C9FFA;
 }
 .disciplina{
-    width: 20vw;
+    width: 90%;
 }
 @media screen and (max-width: 670px) {
     .cardDisciplina{
@@ -39,5 +40,6 @@
         max-height: 300px;
         width: 3px!important;
         float: left;
+        background-color:  #0C9FFA;
     }
 }

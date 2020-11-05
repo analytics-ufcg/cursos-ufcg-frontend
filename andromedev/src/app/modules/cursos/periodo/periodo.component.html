@@ -1,10 +1,9 @@
 <div *ngFor="let cadeira of Disciplinas">
-  <div class="cardDisciplina" (click)="isCollapsed(cadeira.codigo_disciplina)">
-    <div class="header row">
-      <div class="activeButton " [style.background-color]="cadeira.localizar ? '#F8433F' : '#0C9FFA'"></div>
-      <div class="ml-2 disciplina">
-        {{cadeira.disciplina}}
-      </div>
+  <div class="cardDisciplina">
+    <div class="header">
+      <div class="activeButton "></div>
+      <button type="button" class="btn disciplina"
+        (click)="isCollapsed(cadeira.codigo_disciplina)">{{cadeira.disciplina}}</button>
     </div>
     <div class="card-body row m-0" [style.display]="cadeira.isCollapsed ? 'grid' : 'none'">
       <div class="row">
@@ -17,18 +16,16 @@
       </div>
       <div class="row" *ngIf="cadeira.pre_requisitos.length!=0 || cadeira.pos_requisitos.length!=0">
         <h6 class="col-12" *ngIf="cadeira.pre_requisitos.length!=0">Pré-Requisitos:</h6>
-        <p class="col-12 ml-2" *ngIf="cadeira.pre_requisitos.length!=0">{{cadeira.disciplinaPre}}</p>
+        <div *ngIf="cadeira.pre_requisitos.length!=0" class=" ml-4">
+          <button type="button" class="btn" *ngFor="let item of cadeira.pre"
+            (click)="localizar(item)">{{item.disciplina}}</button>
+        </div>
         <h6 class="col-12" *ngIf="cadeira.pos_requisitos.length!=0">Pós-Requisitos:</h6>
-        <p class="col-12 ml-2 "*ngIf="cadeira.pos_requisitos.length!=0">{{cadeira.disciplinaPos}}</p>
-      </div>
-      <div class="row">
-        <h6 class="col-12">Localizar:</h6>
-        <div class="row-col-2 mx-2">
-          <button type="button" class="btn btn-outline-primary m-2"
-            (click)="localizar(cadeira.pre)">Pré-requisitos</button>
-          <button type="button" class="btn btn-outline-primary m-2"
-            (click)="localizar(cadeira.pos)">Pós-requisitos</button>
+        <div *ngIf="cadeira.pos_requisitos.length!=0" class="ml-4">
+          <button type="button" class="btn" *ngFor="let item of cadeira.pos"
+            (click)="localizar(item)">{{item.disciplina}}</button>
         </div>
       </div>
     </div>
   </div>
+</div>

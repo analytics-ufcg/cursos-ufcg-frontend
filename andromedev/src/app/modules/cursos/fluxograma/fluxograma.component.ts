@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Subscription } from 'rxjs';
+import { BehaviorSubject, Subscription } from 'rxjs';
 import { ActivatedRoute, Router } from '@angular/router';
 
 import { CursosService } from '../../../core/services/cursos/cursos.service'
@@ -17,7 +17,7 @@ export class FluxogramaComponent implements OnInit {
   periodo = []
   DisciplinaLocalizar = []
   responsiveOptions = []
-
+  periodoSelected:number
   constructor(private route: ActivatedRoute,
     private router: Router,
     private Cursos: CursosService) {
@@ -35,7 +35,7 @@ export class FluxogramaComponent implements OnInit {
       {
         breakpoint: '350px',
         numVisible: 5,
-        numScroll:5
+        numScroll: 5
       },
       {
         breakpoint: '100px',
@@ -46,21 +46,22 @@ export class FluxogramaComponent implements OnInit {
     ];
   }
   ngOnInit() {
+    this.Cursos.obterPeriodo().subscribe(periodo => {
+      this.selected(periodo)
+  })
     this.Cursos.getDisciplina().then(e => {
       this.curso = e.curso
       const periodos = this.summarizeData(e.disciplinas)
-
       this.Periodos = periodos.map(e => {
         return {
           periodo: e,
           selected: false,
-          localizar: false
         }
       })
     })
+
   }
   summarizeData(dados) {
-    console.log(dados)
     let dadosPre = dados.map(p => {
       return p.semestre
     })
@@ -79,75 +80,9 @@ export class FluxogramaComponent implements OnInit {
       }
     })
   }
-  localizar(disciplinas) {
-    const periodos = this.summarizeData(disciplinas)
-    this.Periodos.forEach(e => {
-      if (periodos.indexOf(e.periodo) != -1) {
-
-        e.localizar = true
-      }
-      else {
-        e.localizar = false
-      }
-    })
-    this.DisciplinaLocalizar = disciplinas
-  }
   viewPeriod(periodo) {
-
-    this.Cursos.getDisciplina().then(e => {
-      this.periodo = e.disciplinas.filter(p => {
-        if (p.semestre == periodo) {
-          p.isCollapsed = false
-          p.pre = this.Cursos.getPre(p.pre_requisitos)
-          p.pos = this.Cursos.getPos(p.pos_requisitos)
-          p.localizar = false
-          return true
-        }
-        else return false
-      })
-      this.periodo.map(e => {
-        e.disciplinaPre = this.concatDisci(e.pre)
-        e.disciplinaPos = this.concatDisci(e.pos)
-      })
-      this.periodo.forEach(e => {
-        const verification = this.DisciplinaLocalizar.filter(p => {
-          if (p.codigo_disciplina == e.codigo_disciplina) {
-            return true
-          }
-        })
-        if (verification.length != 0) {
-          e.localizar = true
-        }
-        else {
-          e.localizar = false
-        }
-      })
-    })
-
-
+    this.router.navigate([`${this.curso}/fluxograma`, periodo]);
   }
-  concatDisci(dis) {
-    let concat = ''
-    if (dis.length == 1) {
-      concat = dis[0].disciplina
-    }
-    else {
-      for (let i = 0; i < dis.length; i++) {
-        if (i == dis.length - 1) {
-          concat = concat + ' e ' + dis[i].disciplina
-        }
-        else if (i == dis.length - 2) {
-          concat = concat + dis[i].disciplina
-        }
-        else {
-          concat = concat + dis[i].disciplina + ', '
-        }
-      }
-    }
-
-    return concat
-  }
-
   ngOnDestroy() {
     this.Disciplinas = [];
   }

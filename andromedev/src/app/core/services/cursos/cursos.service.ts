@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Curso } from '../../../shared/models/cursos.interface'
 import { Observable } from 'rxjs'
 import { Injectable } from '@angular/core'
+import { Subject } from 'rxjs';
 import { Disciplina } from '../../../shared/models/disciplina.interface'
 
 @Injectable({
@@ -12,6 +13,10 @@ export class CursosService {
   curso:string
   periodo=[]
   private url = 'http://analytics.ufcg.edu.br/pre/'
+  private periodoSubject = new Subject<number>();
+  private requisitoSubject = 0
+  currentPeriodo = this.periodoSubject.asObservable();
+
   constructor(private http: HttpClient) { }
 
   getCursos(): Observable<Curso[]> {
@@ -29,9 +34,21 @@ export class CursosService {
     return {
 
       disciplinas:this.disciplinas,
-      curso:this.curso
+      curso:this.curso,
+      requisito:this.requisitoSubject
     }
   }
+
+  changePeriodo(periodo:number) {
+    this.periodoSubject.next(periodo)
+  }
+  changeRequisito(requisito:number){
+    this.requisitoSubject=requisito
+  }
+  obterPeriodo(){
+    return this.currentPeriodo
+  }
+  
   getPos(codigo){
     const pos = codigo.map(p =>{
       const cadeira = this.disciplinas.filter(e =>{
@@ -43,7 +60,6 @@ export class CursosService {
   }
   getPre(codigo){
     const pre = codigo.map(p =>{
-      console.log('p',p)
       const cadeira = this.disciplinas.filter(e =>{
          return e.codigo_disciplina==p
       })

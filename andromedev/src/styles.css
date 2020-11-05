@@ -1,9 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
 @import '~bootstrap/dist/css/bootstrap.min.css';
-body{
+body {
     background-color: #E8EBF3;
 }
-.p-carousel-indicators{
+
+.p-carousel-indicators {
     outline: none !important;
     display: none!important;
 }
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
