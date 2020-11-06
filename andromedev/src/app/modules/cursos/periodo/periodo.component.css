@@ -3,7 +3,7 @@
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 2%;
-    border-radius: 20px;
+    border-radius: 10px;
     font-display: center;
     background-color: #fff;
 }
@@ -12,13 +12,19 @@
     margin-left: 15px;
 }
 .activeButton{
-    height: 5vh;
+    height: 35px;
     width: 2px!important;
     float: left;
     background-color:  #0C9FFA;
 }
 .disciplina{
-    width: 90%;
+    width: 95%;
+    text-align: left;
+}
+.disciplinaRequi{
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
 }
 @media screen and (max-width: 670px) {
     .cardDisciplina{
@@ -37,7 +43,7 @@
         font-size: 105%;
     }
     .activeButton{
-        max-height: 300px;
+        height: 35px;
         width: 3px!important;
         float: left;
         background-color:  #0C9FFA;

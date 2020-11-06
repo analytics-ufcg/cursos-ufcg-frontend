@@ -1,11 +1,15 @@
 <div *ngFor="let cadeira of Disciplinas">
   <div class="cardDisciplina">
     <div class="header">
-      <div class="activeButton "></div>
+      <div class="activeButton justify-content-start"></div>
       <button type="button" class="btn disciplina"
         (click)="isCollapsed(cadeira.codigo_disciplina)">{{cadeira.disciplina}}</button>
     </div>
     <div class="card-body row m-0" [style.display]="cadeira.isCollapsed ? 'grid' : 'none'">
+      <div class="row">
+        <h6 class="col-5">Semestre:</h6>
+        <p class="col-6">{{cadeira.semestre}}</p>
+      </div>
       <div class="row">
         <h6 class="col-5">Tipo:</h6>
         <p class="col-6">{{cadeira.tipo}}</p>
@@ -17,12 +21,12 @@
       <div class="row" *ngIf="cadeira.pre_requisitos.length!=0 || cadeira.pos_requisitos.length!=0">
         <h6 class="col-12" *ngIf="cadeira.pre_requisitos.length!=0">Pré-Requisitos:</h6>
         <div *ngIf="cadeira.pre_requisitos.length!=0" class=" ml-4">
-          <button type="button" class="btn" *ngFor="let item of cadeira.pre"
+          <button type="button" class="btn disciplinaRequi" *ngFor="let item of cadeira.pre"
             (click)="localizar(item)">{{item.disciplina}}</button>
         </div>
         <h6 class="col-12" *ngIf="cadeira.pos_requisitos.length!=0">Pós-Requisitos:</h6>
         <div *ngIf="cadeira.pos_requisitos.length!=0" class="ml-4">
-          <button type="button" class="btn" *ngFor="let item of cadeira.pos"
+          <button type="button" class="btn disciplinaRequi" *ngFor="let item of cadeira.pos"
             (click)="localizar(item)">{{item.disciplina}}</button>
         </div>
       </div>

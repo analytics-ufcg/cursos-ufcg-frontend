@@ -10,7 +10,9 @@ body {
     display: none!important;
 }
 
-.btn:focus, .btn:active {
+.btn:focus, .btn:active,.btn {
     outline: none !important;
     box-shadow: none !important;
+    margin: 0px;
+
   }

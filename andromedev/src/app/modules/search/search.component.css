@@ -43,19 +43,7 @@
     background-color: #0C9FFA;
     margin-right: 0px;
 }
-@media screen and (max-width: 750px) {
-    .containerFilter{
-        width: 40%;
-        float: left;
-       
-    }
-    .containerImg{
-        width: 60%;
-        float: right;
-        margin-right: 0px;
-    }
-}
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
     .containerFilter{
         width: 100%;
         float: left;

@@ -6,7 +6,8 @@
     border-radius: 5px;
     width: 20%!important;
 }
-.header {
+
+.headerCursos {
     margin: 10%;
 }
 
@@ -15,10 +16,14 @@ a, a:hover {
     color: #fff;
 }
 
-.buttonContainer:hover{
+.buttonContainer:hover {
     background-color: #0099f2;
     color: #fff;
     height: 7vh;
+}
+
+.buttonMenu {
+    display: none;
 }
 
 .buttonContainer {
@@ -49,6 +54,7 @@ a, a:hover {
     height: 100vh;
     width: 75%;
 }
+
 @media screen and (max-width: 670px) {
     .menu {
         height: 30%;
@@ -58,23 +64,24 @@ a, a:hover {
         border-radius: 5px;
         width: 100%!important;
     }
-    
-    
-    
     .header {
         margin: 5%;
     }
-    
     a, a:hover {
         text-decoration: none;
         color: #fff;
     }
-    
-    
     .buttonContainer {
         height: 100%;
     }
-    
+    .buttonMenu {
+        display: grid;
+        margin-right: 0px;
+    }
+    .headerCursos {
+        margin: 2%;
+        float: left;
+    }
     .button {
         width: 50%;
         margin-left: 2%;
@@ -82,19 +89,16 @@ a, a:hover {
         margin-bottom: 3%;
         margin-right: 2%;
     }
-    
     .iconCurso {
         float: left;
         color: #fff;
     }
-    
     .activeLink {
         height: 100%;
         width: 1%;
         padding: 2px;
-        float:left
+        float: left
     }
-    
     .conteudo {
         height: 80%;
         width: 100%;

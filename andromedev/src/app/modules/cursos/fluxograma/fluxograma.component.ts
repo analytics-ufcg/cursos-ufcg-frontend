@@ -81,6 +81,7 @@ export class FluxogramaComponent implements OnInit {
     })
   }
   viewPeriod(periodo) {
+    this.Cursos.changeRequisito(0)
     this.router.navigate([`${this.curso}/fluxograma`, periodo]);
   }
   ngOnDestroy() {
