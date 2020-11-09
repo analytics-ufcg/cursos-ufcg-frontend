@@ -12,6 +12,7 @@
 .buttonC{
     margin: 10%;
     padding: 12%;
+    border-radius: 15px;
 }
 @media screen and (max-width: 670px) {
     .containerFluxograma{

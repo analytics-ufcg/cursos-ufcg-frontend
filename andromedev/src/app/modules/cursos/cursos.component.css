@@ -65,7 +65,7 @@ a, a:hover {
         width: 100%!important;
     }
     .header {
-        margin: 5%;
+        margin: 2%;
     }
     a, a:hover {
         text-decoration: none;
@@ -75,12 +75,13 @@ a, a:hover {
         height: 100%;
     }
     .buttonMenu {
-        display: grid;
         margin-right: 0px;
+        display:inline;
     }
     .headerCursos {
-        margin: 2%;
-        float: left;
+        margin:2%;
+
+        float: right;
     }
     .button {
         width: 50%;
@@ -90,7 +91,6 @@ a, a:hover {
         margin-right: 2%;
     }
     .iconCurso {
-        float: left;
         color: #fff;
     }
     .activeLink {
