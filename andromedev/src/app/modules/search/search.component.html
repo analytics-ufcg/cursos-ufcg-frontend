@@ -1,0 +1,16 @@
+<div class="containerInicial">
+    <div class="containerFilter p-2">
+        <div class="headerSearch">
+            <h5>Cursos UFCG</h5>
+        </div>
+        <div class="filter">
+            <input type="text" placeholder="Search Course"#evento class="filterInput"(keyup)="focus($event.target.value)">
+        </div>
+        <div class="filterCursos mt-3" [style.display]="filter?'grid':'none'">
+            <button type="button" class="btn" *ngFor="let item of lista" (click)="getDisciplina(item.schema)">{{item.nome_comum}}</button>
+        </div>
+    </div>
+    <div class="containerImg">
+        <img src="../../../assets/download.svg" class="analytics">
+    </div>
+</div>

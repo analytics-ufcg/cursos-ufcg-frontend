@@ -1,0 +1,24 @@
+.selected{
+    background-color: #00baf2;
+}
+.localizar{
+    border: solid red 1px;
+    background-color: #fff;
+}
+.button{
+    border: solid #0098F2 1px;
+    background-color: #fff;
+}
+.buttonC{
+    margin: 10%;
+    padding: 12%;
+    border-radius: 15px;
+}
+@media screen and (max-width: 670px) {
+    .containerFluxograma{
+        margin: 2%;
+    }
+    .buttonC{
+        padding: 15%;
+    }
+}

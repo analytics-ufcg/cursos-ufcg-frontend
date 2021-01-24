@@ -1,0 +1,51 @@
+.cardDisciplina{
+    border: solid #fff 1px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 2%;
+    border-radius: 10px;
+    font-display: center;
+    background-color: #fff;
+}
+.header{
+    font-size: 105%;
+    margin-left: 15px;
+}
+.activeButton{
+    height: 35px;
+    width: 2px!important;
+    float: left;
+    background-color:  #0C9FFA;
+}
+.disciplina{
+    width: 95%;
+    text-align: left;
+}
+.disciplinaRequi{
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+}
+@media screen and (max-width: 670px) {
+    .cardDisciplina{
+        border: solid #fff 1px;
+        margin-bottom: 10px;
+        padding: 5%;
+        border-radius: 20px;
+        font-display: center;
+        background-color: #fff;
+        max-height: 600px;
+    }
+    .disciplina{
+        width: 90%;
+    }
+    .header{
+        font-size: 105%;
+    }
+    .activeButton{
+        height: 35px;
+        width: 3px!important;
+        float: left;
+        background-color:  #0C9FFA;
+    }
+}
